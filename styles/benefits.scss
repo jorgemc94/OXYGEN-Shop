@@ -11,12 +11,12 @@
         padding: 1rem;
         &__background {
 
-            &__red {
+            &--red {
                 width: 40%;
                 transform: translateX(110%);
             }
 
-            &__bleu {
+            &--bleu {
                 width: 40%;
                 transform: translateX(70%);
             }
@@ -25,12 +25,12 @@
 
         &__image {
             
-            &__macbook {
+            &--macbook {
                 width: 57%;
                 transform: translateX(-35%);
             }
 
-            &__phone {
+            &--phone {
                 width: 55%;
                 transform: translateX(-26%);
                 
@@ -38,6 +38,7 @@
             
             &__trumpet {
                 width: 100%;
+                padding-top: 2rem;
                 background: #55DFB4;
             }
         }

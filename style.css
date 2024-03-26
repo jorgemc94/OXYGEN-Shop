@@ -59,14 +59,10 @@ body {
   border-radius: 2rem;
   border-color: transparent;
 }
-.header__image {
+.header__background {
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.header__image__background {
-  width: 100%;
-  height: auto;
   transform: scale(2);
 }
 
@@ -83,22 +79,22 @@ body {
 .why-us__article {
   width: 100%;
 }
-.why-us__article__red {
+.why-us__article--red {
   transform: translateX(30%);
 }
-.why-us__article__person {
+.why-us__article--person {
   transform: translateX(-30%);
 }
-.why-us__article__blue {
+.why-us__article--blue {
   transform: translateX(50%);
 }
-.why-us__article__eye {
+.why-us__article--eye {
   transform: translate(-30%, -30%);
 }
-.why-us__article__green {
+.why-us__article--green {
   transform: translateX(35%);
 }
-.why-us__article__box {
+.why-us__article--box {
   transform: translateX(-30%);
 }
 .why-us__article__description {
@@ -121,24 +117,25 @@ body {
   background-color: #FFF;
   padding: 1rem;
 }
-.benefits__content__background__red {
+.benefits__content__background--red {
   width: 40%;
   transform: translateX(110%);
 }
-.benefits__content__background__bleu {
+.benefits__content__background--bleu {
   width: 40%;
   transform: translateX(70%);
 }
-.benefits__content__image__macbook {
+.benefits__content__image--macbook {
   width: 57%;
   transform: translateX(-35%);
 }
-.benefits__content__image__phone {
+.benefits__content__image--phone {
   width: 55%;
   transform: translateX(-26%);
 }
 .benefits__content__image__trumpet {
   width: 100%;
+  padding-top: 2rem;
   background: #55DFB4;
 }
 .benefits__content__title {
@@ -175,13 +172,13 @@ body {
   margin-bottom: 3rem;
   position: relative;
 }
-.pricing__ofert__red {
+.pricing__ofert--red {
   border: 1px solid #FB3B64;
 }
-.pricing__ofert__bleu {
+.pricing__ofert--bleu {
   border: 1px solid #07ACE6;
 }
-.pricing__ofert__green {
+.pricing__ofert--green {
   border: 1px solid #55DFB4;
 }
 .pricing__ofert__price {
@@ -200,13 +197,13 @@ body {
   font-family: Open Sans;
   top: 45%;
 }
-.pricing__ofert__price__price__red {
+.pricing__ofert__price__price--red {
   color: #FB3B64;
 }
-.pricing__ofert__price__price__bleu {
+.pricing__ofert__price__price--bleu {
   color: #07ACE6;
 }
-.pricing__ofert__price__price__green {
+.pricing__ofert__price__price--green {
   color: #55DFB4;
 }
 .pricing__ofert__price__offer {
@@ -239,13 +236,13 @@ body {
   bottom: -10%;
   border-color: transparent;
 }
-.pricing__button__red {
+.pricing__button--red {
   background-color: #FB3B64;
 }
-.pricing__button__bleu {
+.pricing__button--bleu {
   background-color: #07ACE6;
 }
-.pricing__button__green {
+.pricing__button--green {
   background-color: #55DFB4;
 }
 

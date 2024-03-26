@@ -28,17 +28,12 @@
             border-radius: 2rem;
             border-color: transparent;
         }
-    }
+    }   
 
-    &__image {
+    &__background {
         width: 100%;
         padding-top: 2rem;
         padding-bottom: 2rem;
-
-        &__background {
-            width: 100%;
-            height: auto;
-            transform: scale(2);
-        }
+        transform: scale(2);
     }
 }

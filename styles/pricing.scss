@@ -17,16 +17,16 @@
         margin-bottom: 3rem;
         position: relative;
 
-        &__red {
+        &--red {
             border: 1px solid #FB3B64;
         }
 
-        &__bleu {
+        &--bleu {
             border: 1px solid #07ACE6;
             
         }
 
-        &__green {
+        &--green {
             border: 1px solid #55DFB4;
         }
     
@@ -46,15 +46,15 @@
                 font-size: 2em;
                 font-family: Open Sans;
                 top: 45%;
-                &__red {
+                &--red {
                     color: #FB3B64;
                 }
 
-                &__bleu {
+                &--bleu {
                     color: #07ACE6;
                 }
 
-                &__green {
+                &--green {
                     color: #55DFB4;
                 }
             }
@@ -97,15 +97,15 @@
         bottom: -10%;
         border-color: transparent;
 
-        &__red {
+        &--red {
             background-color: #FB3B64;
         }
 
-        &__bleu {
+        &--bleu {
              background-color: #07ACE6;
         }
 
-        &__green {
+        &--green {
             background-color: #55DFB4;
         }
     }

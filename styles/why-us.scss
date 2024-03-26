@@ -11,27 +11,27 @@
     &__article {
         width: 100%;
 
-        &__red {
+        &--red {
             transform: translateX(30%);
         }
 
-        &__person {
+        &--person {
             transform: translateX(-30%);
         }
 
-        &__blue {
+        &--blue {
             transform: translateX(50%);
         }
 
-        &__eye {
+        &--eye {
             transform: translate(-30%, -30%);
         }
 
-        &__green {
+        &--green {
             transform: translateX(35%);
         }
 
-        &__box {
+        &--box {
             transform: translateX(-30%);
         }
 
