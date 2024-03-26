@@ -250,72 +250,69 @@ body {
   padding-bottom: 3rem;
   font-family: Open Sans;
 }
-.contact__question {
+.contact__us {
+  width: 100%;
+}
+.contact__us__question {
   font-size: 2.5rem;
-  font-weight: bolder;
   font-family: Raleway;
 }
-.contact__call-us {
+.contact__us__call-us {
   font-size: 1rem;
   padding-bottom: 1.5rem;
-  font-weight: bolder;
 }
-.contact__form__mail {
+.contact__us__mail {
   width: 7%;
   display: inline-block;
 }
-.contact__form__mail__text {
+.contact__us__mail__text {
   width: 90%;
   display: inline-block;
   padding-bottom: 1.5rem;
   vertical-align: 40%;
 }
-.contact__form__phone {
+.contact__us__phone {
   width: 7%;
   display: inline-block;
 }
-.contact__form__phone__text {
+.contact__us__phone__text {
   width: 90%;
   display: inline-block;
   vertical-align: 40%;
   padding-bottom: 2.5rem;
 }
-.contact__client__namec {
+.contact__form {
+  width: 100%;
+}
+.contact__form__name__client {
   color: #08A6E4;
   width: 100%;
   padding-bottom: 1.5em;
 }
-.contact__client__namec-text {
+.contact__form__text {
   width: 100%;
   border: none;
   background: none;
   border-bottom: 1px solid black;
 }
-.contact__client__mailc {
+.contact__form__email__client {
   color: #08A6E4;
   width: 100%;
   padding-bottom: 1.5em;
   padding-top: 1rem;
 }
-.contact__client__mailc-text {
-  width: 100%;
-  border: none;
-  background: none;
-  border-bottom: 1px solid black;
+.contact__form__icon {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 2rem;
 }
-.contact__check {
+.contact__form__icon__check {
   width: 100%;
   display: inline-block;
-  padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.contact__check__icon {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-}
 .contact__button {
-  text-align: right;
   padding: 1rem 4rem;
   border-radius: 2rem;
   border-style: none;

@@ -140,28 +140,31 @@
             </article>
         </section>
         <!--Contact-->
-        <p class="contact__question">Any questions?</p>
-        <p class="contact__call-us">Leave your email address or call us!</p>
-        <div class="contact__form">
-            <img class="contact__form__mail" src="img/mail.png" alt="mail">
-            <p class="contact__form__mail__text">info@besthop.xyz</p>
-            <img class="contact__form__phone" src="img/phone.png" alt="phone">
-            <p class="contact__form__phone__text">123 456 789</p>
-        </div>
-        <form class="contact">
-           
-            <label class="contact__client">
-                <p class="contact__client__namec">NAME</p>
-                <input type="text" class="contact__client__namec-text">
-                <p class="contact__client__mailc">EMAIL</p>
-                <input type="email" class="contact__client__mailc-text">
-            </label>
-            <label class="contact__check" for="check"> 
-                 I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
-            </label>
-            <input type="checkbox" checked="checked" class="contact__check__icon" id="check"/>
-            <button type="button" class="contact__button">Send</button>
-        </form>
+        <section class="contact">
+            <div class="contact__us"></div>
+                <p class="contact__us__question">Any questions?</p>
+                <p class="contact__us__call-us">Leave your email address or call us!</p>
+                <img class="contact__us__mail" src="img/mail.png" alt="mail">
+                <p class="contact__us__mail__text">info@besthop.xyz</p>
+                <img class="contact__us__phone" src="img/phone.png" alt="phone">
+                <p class="contact__us__phone__text">123 456 789</p>
+            </div>
+            <form class="contac__form">
+                <label class="contact__form__name" for="name">
+                    <p class="contact__form__name__client">NAME</p>
+                    <input type="text" class="contact__form__text" id="name">
+                </label>
+                <label class="contact__form__email" for="email">
+                    <p class="contact__form__email__client">EMAIL</p>
+                    <input type="email" class="contact__form__text" id="email">
+                </label>
+                <input type="checkbox" checked="checked" class="contact__form__icon" id="check"/>
+                <label class="contact__form__icon__check" for="check"> 
+                    I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                </label>
+                <button type="button" class="contact__button">Send</button>
+            </form>
+        </section>
         <!--Footer-->
         <footer class="footer">
             <p class="footer__title">OXYGENShop</p>
