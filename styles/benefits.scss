@@ -1,0 +1,63 @@
+.benefits {
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #F7F7F7;
+    text-align: left;
+
+    &__content {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        background-color: #FFF;
+        padding: 1rem;
+        &__background {
+
+            &__red {
+                width: 40%;
+                transform: translateX(110%);
+            }
+
+            &__bleu {
+                width: 40%;
+                transform: translateX(70%);
+            }
+            
+        }
+
+        &__image {
+            
+            &__macbook {
+                width: 57%;
+                transform: translateX(-35%);
+            }
+
+            &__phone {
+                width: 55%;
+                transform: translateX(-26%);
+                
+            }
+            
+            &__trumpet {
+                width: 100%;
+                background: #55DFB4;
+            }
+        }
+
+        &__title{
+            font-size: 2rem;
+            width: 80%;
+            padding-bottom: 1rem;
+            font-weight: bolder;
+        }
+
+        &__description {
+            font-size: 0.9rem;
+            width: 95%;
+            padding-bottom: 1rem;
+            font-weight: bolder;
+        }
+
+        &__vector {
+            display: none;
+        }
+    }
+}

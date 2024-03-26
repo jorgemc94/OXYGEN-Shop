@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    &__content {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+        &__title {
+            font-size: 2rem;
+            padding-bottom: 0.5rem;
+            font-weight: bolder;
+        }
+
+        &__description {
+            font-size: 1rem;
+            width: 65%;
+            margin: auto;
+            padding-bottom: 1rem;
+            font-weight: bolder;
+        }
+
+        &__button {
+            background: #08A6E4;
+            color: #FFF;
+            font-family: Open Sans;
+            padding: 1rem 6rem;
+            border-radius: 2rem;
+            border-color: transparent;
+        }
+    }
+
+    &__image {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        &__background {
+            width: 100%;
+            height: auto;
+            transform: scale(2);
+        }
+    }
+}

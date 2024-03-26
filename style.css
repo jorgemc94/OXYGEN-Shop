@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: Raleway;
+}
+
+.nav {
+  width: 100%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.nav__log {
+  display: inline-block;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  color: #08A6E4;
+  padding: 0.5rem;
+}
+.nav__menu {
+  position: absolute;
+  right: 0%;
+  padding: 1rem;
+}
+.nav__navbar {
+  display: none;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.header__content {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+.header__content__title {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+}
+.header__content__description {
+  font-size: 1rem;
+  width: 65%;
+  margin: auto;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+.header__content__button {
+  background: #08A6E4;
+  color: #FFF;
+  font-family: Open Sans;
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  border-color: transparent;
+}
+.header__image {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.header__image__background {
+  width: 100%;
+  height: auto;
+  transform: scale(2);
+}
+
+.why-us {
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.why-us__title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+.why-us__article {
+  width: 100%;
+}
+.why-us__article__red {
+  transform: translateX(30%);
+}
+.why-us__article__person {
+  transform: translateX(-30%);
+}
+.why-us__article__blue {
+  transform: translateX(50%);
+}
+.why-us__article__eye {
+  transform: translate(-30%, -30%);
+}
+.why-us__article__green {
+  transform: translateX(35%);
+}
+.why-us__article__box {
+  transform: translateX(-30%);
+}
+.why-us__article__description {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  font-size: 0.8em;
+  width: 25%;
+  margin: auto;
+}
+
+.benefits {
+  padding: 1.5rem;
+  width: 100%;
+  background-color: #F7F7F7;
+  text-align: left;
+}
+.benefits__content {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: #FFF;
+  padding: 1rem;
+}
+.benefits__content__background__red {
+  width: 40%;
+  transform: translateX(110%);
+}
+.benefits__content__background__bleu {
+  width: 40%;
+  transform: translateX(70%);
+}
+.benefits__content__image__macbook {
+  width: 57%;
+  transform: translateX(-35%);
+}
+.benefits__content__image__phone {
+  width: 55%;
+  transform: translateX(-26%);
+}
+.benefits__content__image__trumpet {
+  width: 100%;
+  background: #55DFB4;
+}
+.benefits__content__title {
+  font-size: 2rem;
+  width: 80%;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+.benefits__content__description {
+  font-size: 0.9rem;
+  width: 95%;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+.benefits__content__vector {
+  display: none;
+}
+
+.pricing {
+  width: 100%;
+  padding: 1rem;
+}
+.pricing__title {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+.pricing__ofert {
+  width: 100%;
+  margin: auto;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+.pricing__ofert__red {
+  border: 1px solid #FB3B64;
+}
+.pricing__ofert__bleu {
+  border: 1px solid #07ACE6;
+}
+.pricing__ofert__green {
+  border: 1px solid #55DFB4;
+}
+.pricing__ofert__price {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.pricing__ofert__price__title {
+  font-size: 1em;
+  font-weight: bolder;
+  font-family: Open Sans;
+}
+.pricing__ofert__price__price {
+  font-size: 2em;
+  font-family: Open Sans;
+  top: 45%;
+}
+.pricing__ofert__price__price__red {
+  color: #FB3B64;
+}
+.pricing__ofert__price__price__bleu {
+  color: #07ACE6;
+}
+.pricing__ofert__price__price__green {
+  color: #55DFB4;
+}
+.pricing__ofert__price__offer {
+  font-size: 0.6em;
+  font-weight: bolder;
+}
+.pricing__ofert__details {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.pricing__ofert__details__check {
+  list-style: url("img/checkbox.png");
+}
+.pricing__ofert__details__nocheck {
+  list-style: url("img/Cross.png");
+}
+.pricing__ofert__details__li {
+  padding-bottom: 0.5rem;
+  padding-left: 0.2rem;
+  font-weight: bolder;
+}
+.pricing__button {
+  position: absolute;
+  padding: 1em 4em;
+  color: #FFF;
+  border-radius: 2em;
+  font-size: 0.7em;
+  right: 35%;
+  bottom: -10%;
+  border-color: transparent;
+}
+.pricing__button__red {
+  background-color: #FB3B64;
+}
+.pricing__button__bleu {
+  background-color: #07ACE6;
+}
+.pricing__button__green {
+  background-color: #55DFB4;
+}
+
+.contact {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  font-family: Open Sans;
+}
+.contact__question {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-family: Raleway;
+}
+.contact__call-us {
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  font-weight: bolder;
+}
+.contact__form__mail {
+  width: 7%;
+  display: inline-block;
+}
+.contact__form__mail__text {
+  width: 90%;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+  vertical-align: 40%;
+}
+.contact__form__phone {
+  width: 7%;
+  display: inline-block;
+}
+.contact__form__phone__text {
+  width: 90%;
+  display: inline-block;
+  vertical-align: 40%;
+  padding-bottom: 2.5rem;
+}
+.contact__client__namec {
+  color: #08A6E4;
+  width: 100%;
+  padding-bottom: 1.5em;
+}
+.contact__client__namec-text {
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+}
+.contact__client__mailc {
+  color: #08A6E4;
+  width: 100%;
+  padding-bottom: 1.5em;
+  padding-top: 1rem;
+}
+.contact__client__mailc-text {
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+}
+.contact__check {
+  width: 100%;
+  display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contact__check__icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+.contact__button {
+  text-align: right;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: #08A6E4;
+  color: #FFF;
+  transform: translateX(100%);
+}
+
+.footer {
+  background-color: #F7F7F7;
+  width: 100%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+}
+.footer__title {
+  display: inline-block;
+  color: #08A6E4;
+  font-family: Open Sans;
+  font-size: 1.4em;
+  padding-left: 0.5em;
+}
+.footer__copy {
+  display: inline-block;
+  font-size: 0.6em;
+  font-family: Open Sans;
+  padding-left: 1.3em;
+}
+.footer__facebook {
+  transform: translate(600%, 50%);
+}
+.footer__twitter {
+  transform: translate(550%, 50%);
+}
+
+/*# sourceMappingURL=style.css.map */

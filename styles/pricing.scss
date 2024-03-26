@@ -1,0 +1,112 @@
+.pricing {
+    width: 100%;
+    padding: 1rem;
+
+    &__title {
+        text-align: center;
+        font-size: 2.3rem;
+        padding-bottom: 1rem;
+        font-weight: bolder;
+    }
+
+    &__ofert {
+        width: 100%;
+        margin: auto;
+        border-radius: 1.5rem;
+        padding: 2rem;
+        margin-bottom: 3rem;
+        position: relative;
+
+        &__red {
+            border: 1px solid #FB3B64;
+        }
+
+        &__bleu {
+            border: 1px solid #07ACE6;
+            
+        }
+
+        &__green {
+            border: 1px solid #55DFB4;
+        }
+    
+        &__price {
+            display: inline-block;
+            width: 45%;
+            text-align: center;
+            transform: translateY(-50%);
+
+            &__title {
+                font-size: 1em;
+                font-weight: bolder;
+                font-family: Open Sans;
+            }
+
+            &__price {
+                font-size: 2em;
+                font-family: Open Sans;
+                top: 45%;
+                &__red {
+                    color: #FB3B64;
+                }
+
+                &__bleu {
+                    color: #07ACE6;
+                }
+
+                &__green {
+                    color: #55DFB4;
+                }
+            }
+
+            &__offer {
+                font-size: 0.6em;
+                font-weight: bolder;
+            }
+        }
+
+        &__details {
+            display: inline-block;
+            width: 50%;
+            text-align: left;
+            
+
+            &__check {
+                list-style: url("img/checkbox.png");
+            }
+
+            &__nocheck {
+                list-style: url("img/Cross.png");
+            }
+
+            &__li {
+                padding-bottom: 0.5rem;
+                padding-left: 0.2rem;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    &__button {
+        position: absolute;
+        padding: 1em 4em;
+        color: #FFF;
+        border-radius: 2em;
+        font-size: 0.7em;
+        right: 35%;
+        bottom: -10%;
+        border-color: transparent;
+
+        &__red {
+            background-color: #FB3B64;
+        }
+
+        &__bleu {
+             background-color: #07ACE6;
+        }
+
+        &__green {
+            background-color: #55DFB4;
+        }
+    }
+}
