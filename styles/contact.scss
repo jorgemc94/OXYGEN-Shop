@@ -2,7 +2,7 @@
     width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     font-family: Open Sans;
 
     &__question {
@@ -95,6 +95,7 @@
             background-color: #08A6E4;
             color: #FFF;
             transform: translateX(100%);
+            box-shadow: 5px 10px 14px 0px #07ACE64A;
         }
     
 }
