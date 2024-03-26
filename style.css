@@ -259,7 +259,7 @@ body {
 }
 .contact__us__call-us {
   font-size: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 3rem;
 }
 .contact__us__mail {
   width: 7%;
@@ -268,7 +268,7 @@ body {
 .contact__us__mail__text {
   width: 90%;
   display: inline-block;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
   vertical-align: 40%;
 }
 .contact__us__phone {
@@ -279,7 +279,7 @@ body {
   width: 90%;
   display: inline-block;
   vertical-align: 40%;
-  padding-bottom: 2.5rem;
+  padding-bottom: 4rem;
 }
 .contact__form {
   width: 100%;
@@ -287,7 +287,7 @@ body {
 .contact__form__name__client {
   color: #08A6E4;
   width: 100%;
-  padding-bottom: 1.5em;
+  padding-bottom: 2.5em;
 }
 .contact__form__text {
   width: 100%;
@@ -298,17 +298,15 @@ body {
 .contact__form__email__client {
   color: #08A6E4;
   width: 100%;
-  padding-bottom: 1.5em;
-  padding-top: 1rem;
+  padding-bottom: 2.5em;
+  padding-top: 1.5rem;
 }
 .contact__form__icon {
   display: inline-block;
   width: 1.2rem;
   height: 1.2rem;
-  margin-top: 2rem;
 }
 .contact__form__icon__check {
-  width: 100%;
   display: inline-block;
   padding-bottom: 2rem;
 }

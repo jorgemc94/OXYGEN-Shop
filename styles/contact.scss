@@ -15,7 +15,7 @@
         }
         &__call-us {
             font-size: 1rem;
-            padding-bottom: 1.5rem;
+            padding-bottom: 3rem;
         }
 
         &__mail {
@@ -25,7 +25,7 @@
             &__text{
                 width: 90%;
                 display: inline-block;
-                padding-bottom: 1.5rem;
+                padding-bottom: 0.5rem;
                 vertical-align: 40%;
             }
         }
@@ -38,7 +38,7 @@
                 width: 90%;
                 display: inline-block;
                 vertical-align: 40%;
-                padding-bottom: 2.5rem;
+                padding-bottom: 4rem;
             }
         }
     }
@@ -49,7 +49,7 @@
         &__name__client {
             color: #08A6E4;
             width: 100%;
-            padding-bottom: 1.5em;
+            padding-bottom: 2.5em;
         }
 
         &__text {
@@ -62,18 +62,16 @@
         &__email__client {
             color: #08A6E4;
             width: 100%;
-            padding-bottom: 1.5em;
-            padding-top: 1rem;
+            padding-bottom: 2.5em;
+            padding-top: 1.5rem;
         }
 
         &__icon {
             display: inline-block;
             width: 1.2rem;
             height: 1.2rem;
-            margin-top: 2rem;
 
             &__check {
-                width: 100%;
                 display: inline-block;
                 padding-bottom: 2rem;
             }
