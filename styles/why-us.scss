@@ -1,11 +1,10 @@
 .why-us {
     width: 100%;
     text-align: center;
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     &__title {
         font-size: 2rem;
-        padding-bottom: 1rem;
-        font-weight: bolder;
+        padding-bottom: 3rem;
     }
     
     &__article {
@@ -35,9 +34,13 @@
             transform: translateX(-30%);
         }
 
-        &__description {
+        &__title {
             padding-top: 1rem;
-            padding-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        &__description {
+            padding-bottom: 2rem;
             font-size: 0.8em;
             width: 25%;
             margin: auto;

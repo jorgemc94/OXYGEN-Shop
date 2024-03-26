@@ -3,21 +3,19 @@
     overflow: hidden;
     text-align: center;
     &__content {
-        padding-top: 2.5rem;
-        padding-bottom: 2rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
 
         &__title {
             font-size: 2rem;
-            padding-bottom: 0.5rem;
-            font-weight: bolder;
+            padding-bottom: 1.5rem;
         }
 
         &__description {
             font-size: 1rem;
             width: 65%;
             margin: auto;
-            padding-bottom: 1rem;
-            font-weight: bolder;
+            padding-bottom: 2rem;
         }
 
         &__button {

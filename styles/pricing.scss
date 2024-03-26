@@ -1,12 +1,12 @@
 .pricing {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 1rem;
 
     &__title {
         text-align: center;
         font-size: 2.3rem;
         padding-bottom: 1rem;
-        font-weight: bolder;
+        
     }
 
     &__ofert {
@@ -34,16 +34,15 @@
             display: inline-block;
             width: 45%;
             text-align: center;
-            transform: translateY(-50%);
+            transform: translate(-25% , -50%);
 
             &__title {
-                font-size: 1em;
-                font-weight: bolder;
+                font-size: 1.2em;
                 font-family: Open Sans;
             }
 
             &__price {
-                font-size: 2em;
+                font-size: 2.5em;
                 font-family: Open Sans;
                 top: 45%;
                 &--red {
@@ -60,8 +59,7 @@
             }
 
             &__offer {
-                font-size: 0.6em;
-                font-weight: bolder;
+                font-size: 0.7em;
             }
         }
 
@@ -80,9 +78,9 @@
             }
 
             &__li {
-                padding-bottom: 0.5rem;
+                padding-bottom: 1rem;
                 padding-left: 0.2rem;
-                font-weight: bolder;
+                font-family: Open Sans;
             }
         }
     }
