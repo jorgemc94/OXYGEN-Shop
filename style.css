@@ -231,9 +231,6 @@ body {
 .benefits__content__image__trumpet {
   width: 100%;
   background: #55DFB4;
-  padding: 0%;
-}
-.benefits__content__image__trumpet__img {
   width: 100%;
   padding-top: 1rem;
 }
@@ -254,6 +251,14 @@ body {
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .benefits {
+    width: 60%;
+    display: grid;
+    grid-template-rows: repeat(3, 30%);
+    margin: auto;
+  }
+}
 .pricing {
   width: 100%;
   padding: 2rem 1rem;
@@ -263,7 +268,8 @@ body {
   font-size: 2.3rem;
   padding-bottom: 1rem;
 }
-.pricing__ofert {
+.pricing__content__ofert {
+  display: flex;
   width: 100%;
   margin: auto;
   border-radius: 1.5rem;
@@ -271,59 +277,57 @@ body {
   margin-bottom: 3rem;
   position: relative;
 }
-.pricing__ofert--red {
+.pricing__content__ofert--red {
   border: 1px solid #FB3B64;
 }
-.pricing__ofert--bleu {
+.pricing__content__ofert--bleu {
   border: 1px solid #07ACE6;
 }
-.pricing__ofert--green {
+.pricing__content__ofert--green {
   border: 1px solid #55DFB4;
 }
-.pricing__ofert__price {
-  display: inline-block;
+.pricing__content__ofert__price {
+  align-items: center;
   width: 45%;
-  text-align: center;
-  transform: translate(-25%, -50%);
+  align-content: center;
 }
-.pricing__ofert__price__title {
+.pricing__content__ofert__price__title {
   font-size: 1.2em;
   font-family: Open Sans;
 }
-.pricing__ofert__price__price {
+.pricing__content__ofert__price__price {
   font-size: 2.5em;
   font-family: Open Sans;
-  top: 45%;
 }
-.pricing__ofert__price__price--red {
+.pricing__content__ofert__price__price--red {
   color: #FB3B64;
+  padding-bottom: 5.34rem;
 }
-.pricing__ofert__price__price--bleu {
+.pricing__content__ofert__price__price--bleu {
   color: #07ACE6;
 }
-.pricing__ofert__price__price--green {
+.pricing__content__ofert__price__price--green {
   color: #55DFB4;
 }
-.pricing__ofert__price__offer {
+.pricing__content__ofert__price__offer {
   font-size: 0.7em;
 }
-.pricing__ofert__details {
-  display: inline-block;
+.pricing__content__ofert__details {
   width: 50%;
-  text-align: left;
+  align-items: start;
 }
-.pricing__ofert__details__check {
+.pricing__content__ofert__details__check {
   list-style: url("img/checkbox.png");
 }
-.pricing__ofert__details__nocheck {
+.pricing__content__ofert__details__nocheck {
   list-style: url("img/Cross.png");
 }
-.pricing__ofert__details__li {
+.pricing__content__ofert__details__li {
   padding-bottom: 1rem;
   padding-left: 0.2rem;
   font-family: Open Sans;
 }
-.pricing__button {
+.pricing__content__button {
   position: absolute;
   padding: 1em 4em;
   color: #FFF;
@@ -333,16 +337,59 @@ body {
   bottom: -10%;
   border-color: transparent;
 }
-.pricing__button--red {
+.pricing__content__button--red {
   background-color: #FB3B64;
 }
-.pricing__button--bleu {
+.pricing__content__button--bleu {
   background-color: #07ACE6;
 }
-.pricing__button--green {
+.pricing__content__button--green {
   background-color: #55DFB4;
 }
 
+@media only screen and (min-width: 1000px) {
+  .pricing {
+    width: 100%;
+  }
+  .pricing__title {
+    font-size: 6rem;
+    padding-bottom: 3rem;
+  }
+  .pricing__content {
+    display: flex;
+    width: 50%;
+    margin: auto;
+  }
+  .pricing__content__ofert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 4rem;
+  }
+  .pricing__content__ofert__price {
+    text-align: center;
+  }
+  .pricing__content__ofert__price__title {
+    font-size: 3em;
+  }
+  .pricing__content__ofert__price__offer {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+  .pricing__content li {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  .pricing__content__button {
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+    right: 25%;
+    bottom: -6%;
+  }
+}
 .contact {
   width: 100%;
   padding-left: 1rem;
@@ -431,6 +478,7 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 50%);
     margin: auto;
+    margin-top: 5rem;
   }
   .contact__us {
     width: 80%;

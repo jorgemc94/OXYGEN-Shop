@@ -104,6 +104,7 @@
         grid-template-rows: 1fr;
         grid-template-columns: repeat(2 , 50%);
         margin: auto;
+        margin-top: 5rem;
 
         &__us {
             width: 80%;
@@ -138,7 +139,7 @@
                     }
                 }
 
-               } 
+            } 
         }
 
         &__form {

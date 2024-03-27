@@ -39,12 +39,8 @@
             &__trumpet {
                 width: 100%;
                 background: #55DFB4;
-                padding: 0%;
-
-                &__img {
-                    width: 100%;
-                    padding-top: 1rem;
-                }
+                width: 100%;
+                padding-top: 1rem;
             }
         }
 
@@ -70,5 +66,11 @@
 }
 
 @media only screen and (min-width: 1000px) {
-    
+    .benefits {
+        width: 60%;
+        display: grid;
+        grid-template-rows: repeat(3 , 30%);
+        margin: auto;
+        
+    }
 }

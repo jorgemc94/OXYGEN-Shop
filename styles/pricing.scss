@@ -9,106 +9,153 @@
         
     }
 
-    &__ofert {
-        width: 100%;
-        margin: auto;
-        border-radius: 1.5rem;
-        padding: 2rem;
-        margin-bottom: 3rem;
-        position: relative;
+    &__content {
+        
+        &__ofert {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
 
-        &--red {
-            border: 1px solid #FB3B64;
-        }
-
-        &--bleu {
-            border: 1px solid #07ACE6;
-            
-        }
-
-        &--green {
-            border: 1px solid #55DFB4;
-        }
-    
-        &__price {
-            display: inline-block;
-            width: 45%;
-            text-align: center;
-            transform: translate(-25% , -50%);
-
-            &__title {
-                font-size: 1.2em;
-                font-family: Open Sans;
+            &--red {
+                border: 1px solid #FB3B64;
             }
 
+            &--bleu {
+                border: 1px solid #07ACE6;
+                
+            }
+
+            &--green {
+                border: 1px solid #55DFB4;
+            }
+        
             &__price {
-                font-size: 2.5em;
-                font-family: Open Sans;
-                top: 45%;
-                &--red {
-                    color: #FB3B64;
+                align-items: center;
+                width: 45%;
+                align-content: center;
+                &__title {
+                    font-size: 1.2em;
+                    font-family: Open Sans;
                 }
 
-                &--bleu {
-                    color: #07ACE6;
+                &__price {
+                    font-size: 2.5em;
+                    font-family: Open Sans;
+                    &--red {
+                        color: #FB3B64;
+                        padding-bottom: 5.34rem;
+                    }
+
+                    &--bleu {
+                        color: #07ACE6;
+                    }
+
+                    &--green {
+                        color: #55DFB4;
+                    }
                 }
 
-                &--green {
-                    color: #55DFB4;
+                &__offer {
+                    font-size: 0.7em;
+
                 }
             }
 
-            &__offer {
-                font-size: 0.7em;
+            &__details {
+                width: 50%;
+                align-items: start;
+                
+
+                &__check {
+                    list-style: url("img/checkbox.png");
+                }
+
+                &__nocheck {
+                    list-style: url("img/Cross.png");
+                }
+
+                &__li {
+                    padding-bottom: 1rem;
+                    padding-left: 0.2rem;
+                    font-family: Open Sans;
+                }
             }
         }
 
-        &__details {
-            display: inline-block;
-            width: 50%;
-            text-align: left;
-            
+        &__button {
+            position: absolute;
+            padding: 1em 4em;
+            color: #FFF;
+            border-radius: 2em;
+            font-size: 0.7em;
+            right: 35%;
+            bottom: -10%;
+            border-color: transparent;
 
-            &__check {
-                list-style: url("img/checkbox.png");
+            &--red {
+                background-color: #FB3B64;
             }
 
-            &__nocheck {
-                list-style: url("img/Cross.png");
+            &--bleu {
+                background-color: #07ACE6;
             }
-
-            &__li {
-                padding-bottom: 1rem;
-                padding-left: 0.2rem;
-                font-family: Open Sans;
-            }
-        }
-    }
-
-    &__button {
-        position: absolute;
-        padding: 1em 4em;
-        color: #FFF;
-        border-radius: 2em;
-        font-size: 0.7em;
-        right: 35%;
-        bottom: -10%;
-        border-color: transparent;
-
-        &--red {
-            background-color: #FB3B64;
-        }
-
-        &--bleu {
-             background-color: #07ACE6;
-        }
 
         &--green {
             background-color: #55DFB4;
         }
     }
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-    
+    .pricing {
+        width: 100%;
+        &__title {
+            font-size: 6rem;
+            padding-bottom: 3rem;
+        }
+        &__content {
+            display: flex;
+            width: 50%;
+            margin: auto;
+            &__ofert {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                padding-bottom: 4rem;
+                
+                &__price {
+                    text-align: center;
+                    &__title {
+                        font-size: 3em;
+                    }
+
+                    &__offer {
+                        font-size: 2rem;
+                        padding-bottom: 3rem;
+                        
+                    }
+                }
+            }
+            
+            & li {
+                font-size: 1.5rem;
+                text-align: center;
+                padding-bottom: 1.5rem;
+            }
+
+            &__button {
+                padding: 1rem 6rem;
+                font-size: 1.5rem;
+                right: 25%;
+                bottom: -6%;
+            }
+        }
+    }
 }
