@@ -19,7 +19,6 @@
         }
 
         &__mail {
-            width: 7%;
             display: inline-block;
 
             &__text{
@@ -31,7 +30,6 @@
         }
 
         &__phone {
-            width: 7%;
             display: inline-block;
 
             &__text{
@@ -46,10 +44,10 @@
     &__form {
         width: 100%;
 
-        &__name__client {
+        &__title {
             color: #08A6E4;
             width: 100%;
-            padding-bottom: 2.5em;
+            margin-bottom: 3em;
         }
 
         &__text {
@@ -57,23 +55,15 @@
             border: none;
             background: none;
             border-bottom: 1px solid black;
-        }
-
-        &__email__client {
-            color: #08A6E4;
-            width: 100%;
-            padding-bottom: 2.5em;
-            padding-top: 1.5rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
         }
 
         &__icon {
             display: inline-block;
-            width: 1.2rem;
-            height: 1.2rem;
 
             &__check {
                 display: inline-block;
-                padding-bottom: 2rem;
             }
         }
     }
@@ -86,6 +76,7 @@
         color: #FFF;
         transform: translateX(100%);
         box-shadow: 5px 10px 14px 0px #07ACE64A;
+        margin-top: 2.5rem;
     }
 
 }   

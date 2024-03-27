@@ -30,6 +30,32 @@ body {
   list-style: none;
 }
 
+@media only screen and (min-width: 1000px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .nav__log {
+    font-size: 5rem;
+  }
+  .nav__menu {
+    display: none;
+  }
+  .nav__navbar {
+    display: flex;
+    font-size: 3.5rem;
+  }
+  .nav__navbar__items {
+    list-style: none;
+  }
+  .nav__navbar__items li {
+    display: inline-block;
+    padding-left: 4rem;
+  }
+}
 .header {
   width: 100%;
   overflow: hidden;
@@ -262,7 +288,6 @@ body {
   padding-bottom: 3rem;
 }
 .contact__us__mail {
-  width: 7%;
   display: inline-block;
 }
 .contact__us__mail__text {
@@ -272,7 +297,6 @@ body {
   vertical-align: 40%;
 }
 .contact__us__phone {
-  width: 7%;
   display: inline-block;
 }
 .contact__us__phone__text {
@@ -284,31 +308,24 @@ body {
 .contact__form {
   width: 100%;
 }
-.contact__form__name__client {
+.contact__form__title {
   color: #08A6E4;
   width: 100%;
-  padding-bottom: 2.5em;
+  margin-bottom: 3em;
 }
 .contact__form__text {
   width: 100%;
   border: none;
   background: none;
   border-bottom: 1px solid black;
-}
-.contact__form__email__client {
-  color: #08A6E4;
-  width: 100%;
-  padding-bottom: 2.5em;
-  padding-top: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .contact__form__icon {
   display: inline-block;
-  width: 1.2rem;
-  height: 1.2rem;
 }
 .contact__form__icon__check {
   display: inline-block;
-  padding-bottom: 2rem;
 }
 .contact__button {
   padding: 1rem 4rem;
@@ -318,31 +335,31 @@ body {
   color: #FFF;
   transform: translateX(100%);
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  margin-top: 2.5rem;
 }
 
 .footer {
-  background-color: #F7F7F7;
   width: 100%;
-  box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+  padding: 1rem;
 }
 .footer__title {
   display: inline-block;
   color: #08A6E4;
   font-family: Open Sans;
-  font-size: 1.4em;
-  padding-left: 0.5em;
+  font-size: 1.6em;
 }
 .footer__copy {
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 0.7em;
   font-family: Open Sans;
-  padding-left: 1.3em;
+  color: #A5A5A5;
 }
 .footer__facebook {
-  transform: translate(600%, 50%);
+  transform: translate(450%, 50%);
 }
 .footer__twitter {
-  transform: translate(550%, 50%);
+  transform: translate(400%, 50%);
 }
 
 /*# sourceMappingURL=style.css.map */
