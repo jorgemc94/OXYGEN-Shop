@@ -18,27 +18,30 @@
             padding-bottom: 3rem;
         }
 
-        &__mail {
-            display: inline-block;
+        &__content {
 
-            &__text{
-                width: 90%;
+            &__mail {
                 display: inline-block;
-                padding-bottom: 0.5rem;
-                vertical-align: 40%;
+
+                &__text{
+                    width: 90%;
+                    display: inline-block;
+                    padding-bottom: 0.5rem;
+                    vertical-align: 40%;
+                }
             }
-        }
 
-        &__phone {
-            display: inline-block;
-
-            &__text{
-                width: 90%;
+            &__phone {
                 display: inline-block;
-                vertical-align: 40%;
-                padding-bottom: 4rem;
+
+                &__text{
+                    width: 90%;
+                    display: inline-block;
+                    vertical-align: 40%;
+                    padding-bottom: 4rem;
+                }
             }
-        }
+        }    
     }
     
     &__form {
@@ -95,5 +98,71 @@
 }   
 
 @media only screen and (min-width: 1000px) {
-    
+    .contact {
+        width: 50%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2 , 50%);
+        margin: auto;
+
+        &__us {
+            width: 80%;
+            &__question {
+                font-size: 6rem;
+            
+                }
+                &__call-us {
+                    font-size: 2.5rem;
+                }
+
+                &__content {
+                    display: flex;
+                &__mail {
+                    width: 3rem;
+                    height: 3rem;
+                    margin-right: 0.5rem;
+
+                    &__text{
+                        font-size: 2.5rem;
+                        
+                    }
+                }
+                &__phone {
+                    width: 3rem;
+                    height: 3rem;
+                    margin-left: 2.5rem;
+                    margin-right: 0.5rem;
+
+                    &__text{
+                        font-size: 2.5rem;
+                    }
+                }
+
+               } 
+        }
+
+        &__form {
+            width: 100%;
+
+            &__title {
+                font-size: 2rem;
+            }
+
+            &__icon {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            &__check {
+                font-size: 1.4rem;
+            }
+            
+        }
+
+        &__button {
+            padding: 2rem 11rem;
+            font-size: 1.5rem;
+            border-radius: 3rem;
+        }
+    }
 }

@@ -34,12 +34,14 @@ body {
   .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   }
   .nav__log {
     font-size: 5rem;
+    padding-left: 20rem;
   }
   .nav__menu {
     display: none;
@@ -47,6 +49,7 @@ body {
   .nav__navbar {
     display: flex;
     font-size: 3rem;
+    padding-right: 15rem;
   }
   .nav__navbar__items {
     list-style: none;
@@ -96,14 +99,14 @@ body {
     padding-top: 10rem;
   }
   .header__content__title {
-    font-size: 7rem;
+    font-size: 7.5rem;
   }
   .header__content__description {
     font-size: 2.5rem;
     padding-bottom: 4rem;
   }
   .header__content__button {
-    padding: 2rem 25rem;
+    padding: 3rem 25rem;
     font-size: 2rem;
     border-radius: 5rem;
   }
@@ -157,11 +160,12 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .why-us {
+    padding-bottom: 4rem;
     margin: auto;
   }
   .why-us__title {
     font-size: 5.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   .why-us__content {
     width: 85%;
@@ -197,13 +201,13 @@ body {
   }
 }
 .benefits {
-  padding: 1.5rem;
   width: 100%;
   background-color: #F7F7F7;
   text-align: left;
 }
 .benefits__content {
   width: 100%;
+  padding: 1.5rem;
   margin-bottom: 1.5rem;
   background-color: #FFF;
   padding: 1rem;
@@ -226,16 +230,22 @@ body {
 }
 .benefits__content__image__trumpet {
   width: 100%;
-  padding-top: 2rem;
   background: #55DFB4;
+  padding: 0%;
+}
+.benefits__content__image__trumpet__img {
+  width: 100%;
+  padding-top: 1rem;
 }
 .benefits__content__title {
   font-size: 2rem;
-  width: 80%;
+  width: 90%;
+  padding: 1.5rem;
   padding-bottom: 3rem;
   padding-top: 1.5rem;
 }
 .benefits__content__description {
+  padding: 1.5rem;
   font-size: 0.9rem;
   width: 95%;
   padding-bottom: 1rem;
@@ -351,19 +361,19 @@ body {
   font-size: 1rem;
   padding-bottom: 3rem;
 }
-.contact__us__mail {
+.contact__us__content__mail {
   display: inline-block;
 }
-.contact__us__mail__text {
+.contact__us__content__mail__text {
   width: 90%;
   display: inline-block;
   padding-bottom: 0.5rem;
   vertical-align: 40%;
 }
-.contact__us__phone {
+.contact__us__content__phone {
   display: inline-block;
 }
-.contact__us__phone__text {
+.contact__us__content__phone__text {
   width: 90%;
   display: inline-block;
   vertical-align: 40%;
@@ -414,6 +424,62 @@ body {
   margin-top: 2.5rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .contact {
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 50%);
+    margin: auto;
+  }
+  .contact__us {
+    width: 80%;
+  }
+  .contact__us__question {
+    font-size: 6rem;
+  }
+  .contact__us__call-us {
+    font-size: 2.5rem;
+  }
+  .contact__us__content {
+    display: flex;
+  }
+  .contact__us__content__mail {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+  }
+  .contact__us__content__mail__text {
+    font-size: 2.5rem;
+  }
+  .contact__us__content__phone {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+  }
+  .contact__us__content__phone__text {
+    font-size: 2.5rem;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .contact__form__title {
+    font-size: 2rem;
+  }
+  .contact__form__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .contact__form__check {
+    font-size: 1.4rem;
+  }
+  .contact__button {
+    padding: 2rem 11rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+  }
+}
 .footer {
   width: 100%;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
@@ -450,6 +516,11 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
+  .footer {
+    box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
   .footer__text {
     width: 40%;
     padding-left: 15rem;
@@ -458,7 +529,7 @@ body {
     font-size: 6rem;
   }
   .footer__text__copy {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .footer__img {
     width: 55%;
@@ -466,11 +537,11 @@ body {
     padding-right: 5rem;
   }
   .footer__img__twitter {
-    width: 5rem;
+    width: 6rem;
     margin-right: 2rem;
   }
   .footer__img__facebook {
-    width: 5rem;
+    width: 6rem;
     margin-left: 2rem;
   }
 }

@@ -40,7 +40,9 @@
 
 @media only screen and (min-width: 1000px){
     .footer {
-        
+        box-shadow: 0px -5px 40px 0px #00000033;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
         &__text {
             width: 40%;
             padding-left: 15rem;
@@ -50,7 +52,7 @@
             }
 
             &__copy {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
         }
 
@@ -60,12 +62,12 @@
             padding-right: 5rem;
 
             &__twitter {
-                width: 5rem;
+                width: 6rem;
                 margin-right: 2rem;
             }
 
             &__facebook {
-                width: 5rem;
+                width: 6rem;
                 margin-left: 2rem;
             }
         }

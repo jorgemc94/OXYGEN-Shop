@@ -1,11 +1,11 @@
 .benefits {
-    padding: 1.5rem;
     width: 100%;
     background-color: #F7F7F7;
     text-align: left;
 
     &__content {
         width: 100%;
+        padding: 1.5rem;
         margin-bottom: 1.5rem;
         background-color: #FFF;
         padding: 1rem;
@@ -38,19 +38,26 @@
             
             &__trumpet {
                 width: 100%;
-                padding-top: 2rem;
                 background: #55DFB4;
+                padding: 0%;
+
+                &__img {
+                    width: 100%;
+                    padding-top: 1rem;
+                }
             }
         }
 
         &__title{
             font-size: 2rem;
-            width: 80%;
+            width: 90%;
+            padding: 1.5rem;
             padding-bottom: 3rem;
             padding-top: 1.5rem;
         }
 
         &__description {
+            padding: 1.5rem;
             font-size: 0.9rem;
             width: 95%;
             padding-bottom: 1rem;
