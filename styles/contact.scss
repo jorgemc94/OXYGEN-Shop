@@ -61,10 +61,23 @@
 
         &__icon {
             display: inline-block;
+            margin-right: 0.5rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            appearance: none;
+            border: 0.1rem solid black;
 
-            &__check {
-                display: inline-block;
+            &:checked {
+                background-image: url("img/checked.png");
+                background-repeat: no-repeat;
+                background-position: center;
             }
+        }
+
+        &__check {
+            display: inline-block;
+            width: 85%;
+            vertical-align: top;
         }
     }
 

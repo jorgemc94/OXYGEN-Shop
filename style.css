@@ -155,6 +155,27 @@ body {
   margin: auto;
 }
 
+@media only screen and (min-width: 1000px) {
+  .why-us {
+    margin: auto;
+  }
+  .why-us__title {
+    font-size: 5.5rem;
+    padding-bottom: 3rem;
+  }
+  .why-us__content {
+    display: flex;
+  }
+  .why-us__content__article {
+    width: 100%;
+  }
+  .why-us__content__article__title {
+    font-size: 12rem;
+  }
+  .why-us__content__article__description {
+    font-size: 1rem;
+  }
+}
 .benefits {
   padding: 1.5rem;
   width: 100%;
@@ -346,9 +367,21 @@ body {
 }
 .contact__form__icon {
   display: inline-block;
+  margin-right: 0.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  appearance: none;
+  border: 0.1rem solid black;
 }
-.contact__form__icon__check {
+.contact__form__icon:checked {
+  background-image: url("img/checked.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact__form__check {
   display: inline-block;
+  width: 85%;
+  vertical-align: top;
 }
 .contact__button {
   padding: 1rem 4rem;

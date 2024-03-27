@@ -49,5 +49,26 @@
 }
 
 @media only screen and (min-width: 1000px){
-    
+    .why-us {
+        
+        margin: auto;
+        &__title {
+            font-size: 5.5rem;
+            padding-bottom: 3rem;
+        }
+
+        &__content {
+            display: flex;
+            &__article {
+                width: 100%;
+                &__title {
+                   font-size: 12rem; 
+                }
+
+                &__description {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }
