@@ -81,6 +81,7 @@
     &__content {
         width: 100%;
         margin-bottom: 5rem;
+        padding-bottom: 3rem;
             &--macbook {
                 display: flex;
                 flex-direction: row-reverse;
@@ -118,15 +119,14 @@
                 &__title{
                     font-size: 5rem;
                     margin-left: 5rem;
+                    padding-top: 4rem;
 
                     &--iphone {
-                        padding-top: 4rem;
                         margin-right: 35rem;
                     }
 
                     &--trumpet {
-                        padding-left: 5rem;
-                        padding-right: 40rem;
+                        padding-right: 45rem;
                     }
                 }
     
@@ -136,6 +136,7 @@
                     margin-left: 5rem;
 
                     &--trumpet {
+                        margin-left: 5rem;
                         padding-right: 20rem;
                     }
                     
@@ -143,8 +144,8 @@
 
                 &__vector {
                     display: block;
-                    padding-bottom: 5rem;
-                    margin-left: 5rem;
+                    padding-bottom: 8rem;
+                    margin-left: 6rem;
 
                     &--macbook {
                         width: 70%;

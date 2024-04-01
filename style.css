@@ -259,6 +259,7 @@ body {
   .benefits__content {
     width: 100%;
     margin-bottom: 5rem;
+    padding-bottom: 3rem;
   }
   .benefits__content--macbook {
     display: flex;
@@ -292,14 +293,13 @@ body {
   .benefits__content__text__title {
     font-size: 5rem;
     margin-left: 5rem;
+    padding-top: 4rem;
   }
   .benefits__content__text__title--iphone {
-    padding-top: 4rem;
     margin-right: 35rem;
   }
   .benefits__content__text__title--trumpet {
-    padding-left: 5rem;
-    padding-right: 40rem;
+    padding-right: 45rem;
   }
   .benefits__content__text__description {
     font-size: 3rem;
@@ -307,12 +307,13 @@ body {
     margin-left: 5rem;
   }
   .benefits__content__text__description--trumpet {
+    margin-left: 5rem;
     padding-right: 20rem;
   }
   .benefits__content__text__vector {
     display: block;
-    padding-bottom: 5rem;
-    margin-left: 5rem;
+    padding-bottom: 8rem;
+    margin-left: 6rem;
   }
   .benefits__content__text__vector--macbook {
     width: 70%;
@@ -349,7 +350,7 @@ body {
 .pricing__content__ofert--red {
   border: 1px solid #FB3B64;
 }
-.pricing__content__ofert--bleu {
+.pricing__content__ofert--blue {
   border: 1px solid #07ACE6;
 }
 .pricing__content__ofert--green {
@@ -372,7 +373,7 @@ body {
   color: #FB3B64;
   padding-bottom: 5.34rem;
 }
-.pricing__content__ofert__price__price--bleu {
+.pricing__content__ofert__price__price--blue {
   color: #07ACE6;
 }
 .pricing__content__ofert__price__price--green {
@@ -409,7 +410,7 @@ body {
 .pricing__content__button--red {
   background-color: #FB3B64;
 }
-.pricing__content__button--bleu {
+.pricing__content__button--blue {
   background-color: #07ACE6;
 }
 .pricing__content__button--green {
@@ -422,7 +423,7 @@ body {
   }
   .pricing__title {
     font-size: 6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   .pricing__content {
     display: flex;
@@ -436,6 +437,18 @@ body {
     align-items: center;
     width: 20%;
     padding-bottom: 4rem;
+  }
+  .pricing__content__ofert:hover {
+    scale: 1.2;
+  }
+  .pricing__content__ofert--red:hover {
+    box-shadow: 0.312rem 0.625rem 1.688rem 0px rgba(235, 71, 110, 0.2901960784);
+  }
+  .pricing__content__ofert--blue:hover {
+    box-shadow: 0.312rem 0.625rem 1.688rem 0px rgba(7, 172, 230, 0.2901960784);
+  }
+  .pricing__content__ofert--green:hover {
+    box-shadow: 0.312rem 0.625rem 1.688rem 0px rgba(85, 223, 180, 0.2901960784);
   }
   .pricing__content__ofert__price {
     width: 100%;

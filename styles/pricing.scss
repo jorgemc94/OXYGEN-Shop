@@ -24,7 +24,7 @@
                 border: 1px solid #FB3B64;
             }
 
-            &--bleu {
+            &--blue {
                 border: 1px solid #07ACE6;
                 
             }
@@ -50,7 +50,7 @@
                         padding-bottom: 5.34rem;
                     }
 
-                    &--bleu {
+                    &--blue {
                         color: #07ACE6;
                     }
 
@@ -100,7 +100,7 @@
                 background-color: #FB3B64;
             }
 
-            &--bleu {
+            &--blue {
                 background-color: #07ACE6;
             }
 
@@ -116,12 +116,13 @@
         width: 100%;
         &__title {
             font-size: 6rem;
-            padding-bottom: 3rem;
+            padding-bottom: 6rem;
         }
         &__content {
             display: flex;
             width: 70%;
             margin: auto;
+
             &__ofert {
                 display: flex;
                 flex-direction: column;
@@ -129,6 +130,31 @@
                 align-items: center;
                 width: 20%;
                 padding-bottom: 4rem;
+
+                &:hover {
+                    scale: 1.2;
+                }
+
+                &--red {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #EB476E4A;
+                    }
+                    
+                }
+
+                &--blue {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #07ACE64A;
+                    }
+                    
+                }
+
+                &--green {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #55DFB44A;
+                    }
+                    
+                }
                 
                 &__price {
                     width: 100%;
