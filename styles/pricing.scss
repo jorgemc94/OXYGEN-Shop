@@ -135,7 +135,11 @@
                     text-align: center;
                     padding-bottom: 1.5rem;
                     &__title {
-                        font-size: 3.5em;
+                        font-size: 4em;
+                    }
+
+                    &__price {
+                        font-size: 5rem;
                     }
 
                     &__offer {

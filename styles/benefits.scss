@@ -2,49 +2,50 @@
     width: 100%;
     background-color: #F7F7F7;
     text-align: left;
+    padding: 1.5rem;
 
     &__content {
         width: 100%;
-        padding: 1.5rem;
         margin-bottom: 1.5rem;
         background-color: #FFF;
-        padding: 1rem;
 
-        &__img {
-
-            &__background {
-
-                &--red {
+        &--macbook {
+            
+            &__img {
+                &__red {
                     width: 40%;
                     transform: translateX(110%);
                 }
 
-                &--bleu {
-                    width: 40%;
-                    transform: translateX(70%);
-                }
-                
-            }
-
-            &__image {
-                
-                &--macbook {
+                &__macbook {
                     width: 57%;
                     transform: translateX(-35%);
                 }
+            }
+        
+        }
 
-                &--phone {
+        &--iphone {
+            &__img {
+                &__blue {
+                    width: 40%;
+                    transform: translateX(70%);
+                }
+
+                &__iphone {
                     width: 55%;
                     transform: translateX(-26%);
-                    
                 }
-                
-                &__trumpet {
-                    width: 100%;
-                    background: #55DFB4;
-                    width: 100%;
-                    padding-top: 1rem;
-                }
+            }
+        
+        }
+
+        &--trumpet {
+            margin-bottom: 0%;
+            &__img {
+                background: #55DFB4;
+                width: 100%;
+                padding-top: 1rem;
             }
 
         }
@@ -75,5 +76,95 @@
 }
 
 @media only screen and (min-width: 1000px) {
+   .benefits {
+    padding: 10rem 30rem;
+    &__content {
+        width: 100%;
+        margin-bottom: 5rem;
+            &--macbook {
+                display: flex;
+                flex-direction: row-reverse;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+                &__img {
+                    width: 100%;
+                }
+            }
 
+            &--iphone {
+                display: flex;
+
+                &__img {
+                    width: 100%;
+                }
+            }
+
+            &--trumpet {
+                margin-bottom: 0%;
+                background-color: #F7F7F7;
+                display: flex;
+                width: 100%;
+
+                &__img {
+                    width: 50%;
+                    padding-left: 10rem;
+                    padding-top: 12rem;
+                }
+            }
+
+            &__text {
+                width: 100%;
+                
+                &__title{
+                    font-size: 5rem;
+                    margin-left: 5rem;
+
+                    &--iphone {
+                        padding-top: 4rem;
+                        margin-right: 35rem;
+                    }
+
+                    &--trumpet {
+                        padding-left: 5rem;
+                        padding-right: 40rem;
+                    }
+                }
+    
+                &__description {
+                    font-size: 3rem;
+                    padding-bottom: 5rem;
+                    margin-left: 5rem;
+
+                    &--trumpet {
+                        padding-right: 20rem;
+                    }
+                    
+                }
+
+                &__vector {
+                    display: block;
+                    padding-bottom: 5rem;
+                    margin-left: 5rem;
+
+                    &--macbook {
+                        width: 70%;
+                    }
+
+                    &--iphone {
+                        width: 75%;
+                    }
+
+                    &--trumpet {
+                        width: 50%;
+                    }
+                }
+
+                &--trumpet {
+                    margin-right: 5rem;
+                    background-color: #FFF;
+                }
+
+            }
+        }
+    }
 }
