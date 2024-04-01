@@ -439,7 +439,7 @@ body {
     padding-bottom: 4rem;
   }
   .pricing__content__ofert:hover {
-    scale: 1.2;
+    transform: scale(1.2);
   }
   .pricing__content__ofert--red:hover {
     box-shadow: 0.312rem 0.625rem 1.688rem 0px rgba(235, 71, 110, 0.2901960784);
