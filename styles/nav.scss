@@ -50,6 +50,16 @@
                 li {
                     display: inline-block;
                     padding-left: 4rem;
+                    
+
+                    a {
+                        text-decoration: none;
+                        color: #A5A5A5;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
                 }
             }
 
