@@ -9,11 +9,6 @@ body {
   font-family: Raleway;
 }
 
-@media only screen and (min-width: 1000px) {
-  body {
-    max-width: 1000px;
-  }
-}
 .nav {
   width: 100%;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
@@ -399,10 +394,10 @@ body {
   align-items: start;
 }
 .pricing__content__ofert__details__check {
-  list-style: url("img/checkbox.png");
+  list-style-image: url("img/checkbox.png");
 }
 .pricing__content__ofert__details__nocheck {
-  list-style: url("img/Cross.png");
+  list-style-image: url("img/Cross.png");
 }
 .pricing__content__ofert__details__li {
   padding-bottom: 1rem;
