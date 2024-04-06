@@ -283,6 +283,15 @@ body {
   .benefits__content--trumpet__img {
     width: 100%;
   }
+  .benefits__content__text {
+    padding: 0%;
+  }
+  .benefits__content__text__title {
+    padding: 0%;
+  }
+  .benefits__content__text__description {
+    padding: 0%;
+  }
 }
 .pricing {
   width: 100%;
