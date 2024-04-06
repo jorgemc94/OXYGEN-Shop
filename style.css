@@ -253,12 +253,11 @@ body {
     width: 100%;
   }
   .benefits__content--macbook {
-    width: 100%;
     display: flex;
     flex-direction: row-reverse;
   }
   .benefits__content--macbook__img {
-    width: 40%;
+    width: 50%;
   }
   .benefits__content--macbook__img--macbook {
     width: 100%;
