@@ -375,7 +375,7 @@ body {
   }
   .pricing__content {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   .pricing__content__ofert {
@@ -383,8 +383,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    padding: 1.5rem 2.5rem;
+    width: 25%;
+    padding: 1.5rem 1.5rem;
   }
   .pricing__content__ofert:hover {
     transform: scale(1.2);
