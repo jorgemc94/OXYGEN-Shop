@@ -89,14 +89,14 @@
                 display: flex;
                 flex-direction: row-reverse;
                 &__img {
-                    width: 30%;
+                    width: 40%;
 
                     &--macbook{
-                        width: 500%;
+                        width: 100%;
                     }
 
                     &--red {
-                        width: 50%;
+                        width: 100%;
                     }
                 }
             }

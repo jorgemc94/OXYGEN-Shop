@@ -258,13 +258,13 @@ body {
     flex-direction: row-reverse;
   }
   .benefits__content--macbook__img {
-    width: 30%;
+    width: 40%;
   }
   .benefits__content--macbook__img--macbook {
-    width: 500%;
+    width: 100%;
   }
   .benefits__content--macbook__img--red {
-    width: 50%;
+    width: 100%;
   }
 }
 .pricing {
