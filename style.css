@@ -156,13 +156,13 @@ body {
 @media only screen and (min-width: 1000px) {
   .why-us {
     padding-bottom: 5rem;
+    padding-left: 25%;
+    padding-right: 25%;
   }
   .why-us__title {
     font-size: 1.5rem;
   }
   .why-us__content {
-    padding-left: 25%;
-    padding-right: 25%;
     display: flex;
   }
   .why-us__content__article {
