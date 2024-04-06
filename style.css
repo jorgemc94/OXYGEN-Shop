@@ -292,6 +292,10 @@ body {
   .benefits__content__text__description {
     padding: 0%;
   }
+  .benefits__content__text__vector {
+    display: block;
+    width: 50%;
+  }
 }
 .pricing {
   width: 100%;
