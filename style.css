@@ -154,6 +154,9 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
+  .why-us {
+    padding-bottom: 4rem;
+  }
   .why-us__content {
     width: 85%;
     margin: auto;
@@ -163,22 +166,25 @@ body {
     width: 100%;
   }
   .why-us__content__article--red {
-    width: 6rem;
+    width: 4rem;
   }
   .why-us__content__article--person {
-    width: 5rem;
+    width: 3rem;
   }
   .why-us__content__article--blue {
-    width: 6rem;
+    width: 4rem;
   }
   .why-us__content__article--eye {
-    width: 6rem;
+    width: 4rem;
   }
   .why-us__content__article--green {
-    width: 6rem;
+    width: 4rem;
   }
   .why-us__content__article--box {
-    width: 5rem;
+    width: 4rem;
+  }
+  .why-us__content__article__description {
+    color: #A5A5A5;
   }
 }
 .benefits {
