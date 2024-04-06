@@ -188,7 +188,7 @@ body {
   }
   .why-us__content__article__description {
     color: #A5A5A5;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
 .benefits {
@@ -271,6 +271,9 @@ body {
   }
   .benefits__content__text {
     width: 100%;
+  }
+  .benefits__content__text__description--trumpet {
+    margin-right: 2rem;
   }
   .benefits__content__text__vector {
     display: block;
