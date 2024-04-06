@@ -282,14 +282,11 @@ body {
   }
   .benefits__content--trumpet__img {
     width: 100%;
+    margin-left: 3rem;
   }
   .benefits__content__text {
     padding: 0%;
     padding-left: 2rem;
-  }
-  .benefits__content__text--trumpet {
-    margin-right: 3rem;
-    background-color: #F7F7F7;
   }
   .benefits__content__text__title {
     padding-top: 4rem;
