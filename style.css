@@ -370,6 +370,9 @@ body {
   .pricing {
     width: 100%;
   }
+  .pricing__title {
+    font-size: 1.5rem;
+  }
   .pricing__content {
     display: flex;
     width: 70%;
@@ -381,6 +384,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 20%;
+    padding: 1.5rem 2.5rem;
   }
   .pricing__content__ofert:hover {
     transform: scale(1.2);
