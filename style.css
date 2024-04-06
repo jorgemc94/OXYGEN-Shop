@@ -161,8 +161,8 @@ body {
     font-size: 1.5rem;
   }
   .why-us__content {
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 25%;
+    padding-right: 25%;
     display: flex;
   }
   .why-us__content__article {
