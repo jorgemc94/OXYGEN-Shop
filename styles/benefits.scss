@@ -117,19 +117,20 @@
 
             &--trumpet{
                 display: flex;
-                width: 40%;
                 &__img {
-                    width: 100%;
+                    width: 40%;
                 }
             }
 
             &__text {
                 padding: 0%;
                 padding-left: 2rem;
+                background-color: #F7F7F7;
 
                 &--trumpet {
                     width: 40%;
                     margin-right: 3rem;
+                    background-color: #FFF;
                 }
                 
                 &__title {
