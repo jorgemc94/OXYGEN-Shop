@@ -279,10 +279,10 @@ body {
   }
   .benefits__content--trumpet {
     display: flex;
+    margin-left: 3rem;
   }
   .benefits__content--trumpet__img {
     width: 100%;
-    margin-left: 3rem;
   }
   .benefits__content__text {
     padding: 0%;
