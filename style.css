@@ -255,6 +255,12 @@ body {
     margin-bottom: 3rem;
   }
   .benefits--macbook__img {
+    width: 50%;
+  }
+  .benefits--macbook__img__red {
+    width: 100%;
+  }
+  .benefits--macbook__img__macbook {
     width: 100%;
   }
   .benefits--iphone {
@@ -263,6 +269,12 @@ body {
   }
   .benefits--iphone__img {
     width: 50%;
+  }
+  .benefits--iphone__img__blue {
+    width: 100%;
+  }
+  .benefits--iphone__img__iphone {
+    width: 100%;
   }
   .benefits--trumpet {
     margin-bottom: 0%;
@@ -274,7 +286,7 @@ body {
     width: 50%;
   }
   .benefits__text {
-    width: 100%;
+    width: 50%;
   }
   .benefits__text__vector {
     display: block;
