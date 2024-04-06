@@ -336,7 +336,7 @@ body {
   align-items: start;
 }
 .pricing__content__ofert__details__check {
-  list-style-image: url("img/checkbox.png");
+  list-style-image: url("img/Checkbox.png");
 }
 .pricing__content__ofert__details__nocheck {
   list-style-image: url("img/Cross.png");
@@ -402,11 +402,15 @@ body {
     width: 100%;
     text-align: center;
   }
+  .pricing__content__ofert__price__title {
+    padding: 0.5rem;
+  }
   .pricing__content__ofert__price__price--red {
-    padding-bottom: 0rem;
+    padding-bottom: 1.5rem;
   }
   .pricing__content__ofert__price__offer {
     font-size: 0.5rem;
+    padding-bottom: 1rem;
   }
   .pricing__content__ofert__details {
     width: 100%;
