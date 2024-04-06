@@ -249,49 +249,49 @@ body {
     width: 100%;
     margin-bottom: 3rem;
   }
-  .benefits--macbook {
+  .benefits__contents--macbook {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 3rem;
   }
-  .benefits--macbook__img {
+  .benefits__contents--macbook__img {
     width: 50%;
   }
-  .benefits--macbook__img__red {
+  .benefits__contents--macbook__img__red {
     width: 10rem;
   }
-  .benefits--macbook__img__macbook {
+  .benefits__contents--macbook__img__macbook {
     width: 10rem;
   }
-  .benefits--iphone {
+  .benefits__contents--iphone {
     display: flex;
     margin-bottom: 3rem;
   }
-  .benefits--iphone__img {
+  .benefits__contents--iphone__img {
     width: 50%;
   }
-  .benefits--iphone__img__blue {
+  .benefits__contents--iphone__img__blue {
     width: 10rem;
   }
-  .benefits--iphone__img__iphone {
+  .benefits__contents--iphone__img__iphone {
     width: 10rem;
   }
-  .benefits--trumpet {
+  .benefits__contents--trumpet {
     margin-bottom: 0%;
     background-color: #F7F7F7;
     display: flex;
     width: 100%;
   }
-  .benefits--trumpet__img {
+  .benefits__contents--trumpet__img {
     width: 50%;
   }
-  .benefits__text {
+  .benefits__contents__text {
     width: 50%;
   }
-  .benefits__text__vector {
+  .benefits__contents__text__vector {
     display: block;
   }
-  .benefits__text--trumpet {
+  .benefits__contents__text--trumpet {
     margin-right: 3rem;
     background-color: #FFF;
   }
