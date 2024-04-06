@@ -34,7 +34,6 @@
 
         &__log{
             
-            padding-left: 20rem;
         }
         &__menu {
             display: none;
@@ -45,9 +44,9 @@
 
             &__items {
                 list-style: none;
+                display: inline-block;
                 li {
                     display: inline-block;
-                    padding-left: 4rem;
                     
 
                     a {
@@ -60,7 +59,7 @@
                     }
                 }
             }
-
+            
         }
     }
 }
