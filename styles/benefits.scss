@@ -77,13 +77,13 @@
 
 @media only screen and (min-width: 1000px) {
    .benefits {
-        padding: 3rem 10rem;
+        padding: 8rem 8rem;
         width: 100%;
         margin-bottom: 3rem;
             &--macbook {
                 display: flex;
                 flex-direction: row-reverse;
-                
+                margin-bottom: 3rem;
                 &__img {
                     width: 100%;
                 }
@@ -91,9 +91,10 @@
 
             &--iphone {
                 display: flex;
+                margin-bottom: 3rem;
 
                 &__img {
-                    width: 100%;
+                    width: 50%;
                 }
             }
 
