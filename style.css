@@ -285,9 +285,10 @@ body {
   }
   .benefits__content__text {
     padding: 0%;
+    padding-left: 3rem;
   }
   .benefits__content__text__title {
-    padding: 0%;
+    padding-top: 4rem;
   }
   .benefits__content__text__description {
     padding: 0%;
