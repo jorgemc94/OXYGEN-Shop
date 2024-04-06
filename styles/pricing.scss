@@ -128,7 +128,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                width: 25%;
+                width: 30%;
                 padding: 1.5rem 2.5rem;
 
                 &:hover {
@@ -165,12 +165,13 @@
                     }
 
                     &__price {
-                        
+                        &--red {
+                        padding-bottom: 0rem;
+                        }
                     }
 
                     &__offer {
-                        
-                        
+                        font-size: 0.5rem;
                     }
                 }
 
