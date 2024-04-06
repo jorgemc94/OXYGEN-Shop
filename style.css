@@ -278,10 +278,12 @@ body {
     width: 100%;
   }
   .benefits__content--trumpet {
+    width: 100%;
     display: flex;
+    background-color: #F7F7F7;
   }
   .benefits__content--trumpet__img {
-    width: 100%;
+    width: 40%;
   }
   .benefits__content__text {
     padding: 0%;
