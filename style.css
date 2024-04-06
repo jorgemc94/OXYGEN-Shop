@@ -566,10 +566,10 @@ body {
   }
   .footer__text {
     width: 40%;
-    padding-left: 4rem;
+    padding-left: 3rem;
   }
   .footer__text__title {
-    font-size: 2rem;
+    font-size: 1rem;
     padding-right: 5rem;
   }
   .footer__text__copy {
