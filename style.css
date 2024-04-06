@@ -281,15 +281,14 @@ body {
     display: flex;
   }
   .benefits__content--trumpet__img {
-    width: 40%;
+    width: 100%;
   }
   .benefits__content__text {
     padding: 0%;
     padding-left: 2rem;
-    background-color: #F7F7F7;
   }
   .benefits__content__text--trumpet {
-    width: 40%;
+    width: 60%;
     margin-right: 3rem;
     background-color: #FFF;
   }
