@@ -164,6 +164,7 @@ body {
     width: 85%;
     margin: auto;
     display: flex;
+    padding: 0rem;
   }
   .why-us__content__article {
     width: 100%;
