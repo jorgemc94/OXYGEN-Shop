@@ -425,7 +425,7 @@ body {
     text-align: center;
   }
   .pricing__content__button {
-    right: 0%;
+    right: 20%;
     bottom: -5%;
   }
 }
