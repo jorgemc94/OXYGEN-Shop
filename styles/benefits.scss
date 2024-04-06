@@ -118,7 +118,7 @@
             &--trumpet{
                 display: flex;
                 &__img {
-                    width: 50%;
+                    width: 100%;
                 }
             }
 
@@ -127,8 +127,8 @@
                 padding-left: 2rem;
 
                 &--trumpet {
-                    width: 60%;
-                    margin-left: 3rem;
+                    width: 50%;
+                    margin-right: 3rem;
                 }
                 
                 &__title {
