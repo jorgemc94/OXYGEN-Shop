@@ -244,38 +244,40 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .benefits__content {
+  .benefits {
+    padding: 3rem 10rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
-  .benefits__content--macbook {
+  .benefits--macbook {
     display: flex;
     flex-direction: row-reverse;
   }
-  .benefits__content--macbook__img {
+  .benefits--macbook__img {
     width: 100%;
   }
-  .benefits__content--iphone {
+  .benefits--iphone {
     display: flex;
   }
-  .benefits__content--iphone__img {
+  .benefits--iphone__img {
     width: 100%;
   }
-  .benefits__content--trumpet {
+  .benefits--trumpet {
     margin-bottom: 0%;
     background-color: #F7F7F7;
     display: flex;
     width: 100%;
   }
-  .benefits__content--trumpet__img {
+  .benefits--trumpet__img {
     width: 50%;
   }
-  .benefits__content__text {
+  .benefits__text {
     width: 100%;
   }
-  .benefits__content__text__vector {
+  .benefits__text__vector {
     display: block;
   }
-  .benefits__content__text--trumpet {
+  .benefits__text--trumpet {
     margin-right: 3rem;
     background-color: #FFF;
   }
