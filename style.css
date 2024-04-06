@@ -249,52 +249,6 @@ body {
     width: 100%;
     margin-bottom: 3rem;
   }
-  .benefits__contents--macbook {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 3rem;
-  }
-  .benefits__contents--macbook__img {
-    width: 20%;
-  }
-  .benefits__contents--macbook__img__red {
-    width: 10rem;
-  }
-  .benefits__contents--macbook__img__macbook {
-    width: 10rem;
-  }
-  .benefits__contents--iphone {
-    display: flex;
-    margin-bottom: 3rem;
-  }
-  .benefits__contents--iphone__img {
-    width: 20%;
-  }
-  .benefits__contents--iphone__img__blue {
-    width: 10rem;
-  }
-  .benefits__contents--iphone__img__iphone {
-    width: 10rem;
-  }
-  .benefits__contents--trumpet {
-    margin-bottom: 0%;
-    background-color: #F7F7F7;
-    display: flex;
-    width: 100%;
-  }
-  .benefits__contents--trumpet__img {
-    width: 20%;
-  }
-  .benefits__contents__text {
-    width: 50%;
-  }
-  .benefits__contents__text__vector {
-    display: block;
-  }
-  .benefits__contents__text--trumpet {
-    margin-right: 3rem;
-    background-color: #FFF;
-  }
 }
 .pricing {
   width: 100%;
