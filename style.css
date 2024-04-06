@@ -403,7 +403,8 @@ body {
     text-align: center;
   }
   .pricing__content__ofert__price__title {
-    padding: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   .pricing__content__ofert__price__price--red {
     padding-bottom: 1.5rem;
@@ -424,7 +425,7 @@ body {
   }
   .pricing__content__button {
     padding: 1.5rem 0.5rem;
-    right: 50%;
+    right: 65%;
     bottom: -5%;
   }
 }
