@@ -566,15 +566,14 @@ body {
   }
   .footer__text {
     width: 40%;
+    padding-left: 4rem;
   }
   .footer__text__title {
     font-size: 2rem;
-    padding-left: 4rem;
     padding-right: 5rem;
   }
   .footer__text__copy {
     font-size: 1rem;
-    padding-left: 4rem;
   }
   .footer__img {
     width: 55%;
@@ -582,11 +581,11 @@ body {
     padding-right: 2rem;
   }
   .footer__img__twitter {
-    width: 2rem;
+    width: 5rem;
     padding: 0.5rem;
   }
   .footer__img__facebook {
-    width: 2rem;
+    width: 5rem;
     padding: 0.5rem;
   }
 }
