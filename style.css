@@ -166,22 +166,22 @@ body {
     width: 100%;
   }
   .why-us__content__article--red {
-    width: 4rem;
-  }
-  .why-us__content__article--person {
     width: 3rem;
   }
+  .why-us__content__article--person {
+    width: 2rem;
+  }
   .why-us__content__article--blue {
-    width: 4rem;
+    width: 3rem;
   }
   .why-us__content__article--eye {
-    width: 4rem;
+    width: 3rem;
   }
   .why-us__content__article--green {
-    width: 4rem;
+    width: 3rem;
   }
   .why-us__content__article--box {
-    width: 4rem;
+    width: 3rem;
   }
   .why-us__content__article__description {
     color: #A5A5A5;
