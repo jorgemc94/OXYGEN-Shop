@@ -99,6 +99,31 @@
                     }
                 }
             }
+
+            &--iphone{
+                display: flex;
+                &__img {
+                    width: 100%;
+
+                    &--iphone{
+                        width: 100%;
+                    }
+
+                    &--blue {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &--trumpet{
+                display: flex;
+                &__img {
+                    width: 100%;
+
+            
+                }
+            }
+
         }
     }
 }
