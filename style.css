@@ -287,12 +287,17 @@ body {
     padding: 0%;
     padding-left: 2rem;
   }
+  .benefits__content__text--trumpet {
+    margin-right: 3rem;
+  }
   .benefits__content__text__title {
     padding-top: 4rem;
     padding-bottom: 0rem;
+    font-size: 1.5rem;
   }
   .benefits__content__text__description {
     padding-bottom: 2em;
+    font-size: 0.7rem;
   }
   .benefits__content__text__vector {
     display: block;
