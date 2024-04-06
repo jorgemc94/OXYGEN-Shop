@@ -565,6 +565,7 @@ body {
   .footer__text__title {
     font-size: 2rem;
     padding-left: 4rem;
+    padding-right: 5rem;
   }
   .footer__text__copy {
     font-size: 1rem;
@@ -576,11 +577,11 @@ body {
     padding-right: 2rem;
   }
   .footer__img__twitter {
-    width: 1rem;
+    width: 2rem;
     padding: 0.5rem;
   }
   .footer__img__facebook {
-    width: 1rem;
+    width: 2rem;
     padding: 0.5rem;
   }
 }
