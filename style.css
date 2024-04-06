@@ -258,10 +258,10 @@ body {
     width: 50%;
   }
   .benefits--macbook__img__red {
-    width: 100%;
+    width: 10rem;
   }
   .benefits--macbook__img__macbook {
-    width: 100%;
+    width: 10rem;
   }
   .benefits--iphone {
     display: flex;
@@ -271,10 +271,10 @@ body {
     width: 50%;
   }
   .benefits--iphone__img__blue {
-    width: 100%;
+    width: 10rem;
   }
   .benefits--iphone__img__iphone {
-    width: 100%;
+    width: 10rem;
   }
   .benefits--trumpet {
     margin-bottom: 0%;
