@@ -130,15 +130,17 @@
                 
                 &__title {
                     padding-top: 4rem;
+                    padding-bottom: 2em;
                 }
 
                 &__description {
-                    padding: 0%;
+                    padding-bottom: 2em;
                 }
 
                 &__vector {
                     display: block;
                     width: 50%;
+                    padding-bottom: 2rem;
                 }
             }
 
