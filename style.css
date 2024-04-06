@@ -279,9 +279,10 @@ body {
   }
   .benefits__content--trumpet {
     display: flex;
+    width: 40%;
   }
   .benefits__content--trumpet__img {
-    width: 40%;
+    width: 100%;
   }
   .benefits__content__text {
     padding: 0%;
