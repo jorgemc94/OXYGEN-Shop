@@ -245,7 +245,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .benefits {
-    padding: 8rem 8rem;
+    padding: 4rem 8rem;
     width: 100%;
     margin-bottom: 3rem;
   }
@@ -255,7 +255,7 @@ body {
     margin-bottom: 3rem;
   }
   .benefits__contents--macbook__img {
-    width: 50%;
+    width: 20%;
   }
   .benefits__contents--macbook__img__red {
     width: 10rem;
@@ -268,7 +268,7 @@ body {
     margin-bottom: 3rem;
   }
   .benefits__contents--iphone__img {
-    width: 50%;
+    width: 20%;
   }
   .benefits__contents--iphone__img__blue {
     width: 10rem;
@@ -283,7 +283,7 @@ body {
     width: 100%;
   }
   .benefits__contents--trumpet__img {
-    width: 50%;
+    width: 20%;
   }
   .benefits__contents__text {
     width: 50%;
