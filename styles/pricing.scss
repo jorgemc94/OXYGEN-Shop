@@ -116,8 +116,7 @@
     .pricing {
         width: 100%;
         &__title {
-            font-size: 6rem;
-            padding-bottom: 6rem;
+          
         }
         &__content {
             display: flex;
@@ -130,7 +129,6 @@
                 justify-content: center;
                 align-items: center;
                 width: 20%;
-                padding-bottom: 4rem;
 
                 &:hover {
                     transform: scale(1.2);
@@ -160,18 +158,17 @@
                 &__price {
                     width: 100%;
                     text-align: center;
-                    padding-bottom: 1.5rem;
+                  
                     &__title {
-                        font-size: 4em;
+                        
                     }
 
                     &__price {
-                        font-size: 5rem;
+                        
                     }
 
                     &__offer {
-                        font-size: 2rem;
-                        padding-bottom: 3rem;
+                        
                         
                     }
                 }
@@ -186,16 +183,15 @@
                 }
 
                 & li {
-                    font-size: 2.5rem;
+                    
                     text-align: center;
-                    padding-bottom: 2rem;
+                    
                 }
 
             }
 
             &__button {
-                padding: 1rem 6rem;
-                font-size: 1.5rem;
+                
                 right: 30%;
                 bottom: -5%;
             }

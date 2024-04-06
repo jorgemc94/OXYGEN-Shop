@@ -35,8 +35,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   }
   .nav__log {
@@ -47,7 +45,7 @@ body {
   }
   .nav__navbar {
     display: flex;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .nav__navbar__items {
     list-style: none;
@@ -99,19 +97,7 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .header__content {
-    padding-top: 10rem;
-  }
-  .header__content__title {
-    font-size: 7.5rem;
-  }
-  .header__content__description {
-    font-size: 2.5rem;
-    padding-bottom: 4rem;
-  }
   .header__content__button {
-    padding: 3rem 25rem;
-    font-size: 2rem;
     border-radius: 5rem;
   }
   .header__background {
@@ -163,14 +149,6 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .why-us {
-    padding-bottom: 4rem;
-    margin: auto;
-  }
-  .why-us__title {
-    font-size: 5.5rem;
-    padding-bottom: 4rem;
-  }
   .why-us__content {
     width: 85%;
     margin: auto;
@@ -196,12 +174,6 @@ body {
   }
   .why-us__content__article--box {
     width: 5rem;
-  }
-  .why-us__content__article__title {
-    font-size: 3rem;
-  }
-  .why-us__content__article__description {
-    font-size: 1.5rem;
   }
 }
 .benefits {
@@ -257,19 +229,12 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .benefits {
-    padding: 10rem 30rem;
-  }
   .benefits__content {
     width: 100%;
-    margin-bottom: 5rem;
-    padding-bottom: 3rem;
   }
   .benefits__content--macbook {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
   .benefits__content--macbook__img {
     width: 100%;
@@ -288,36 +253,12 @@ body {
   }
   .benefits__content--trumpet__img {
     width: 50%;
-    padding-left: 10rem;
-    padding-top: 12rem;
   }
   .benefits__content__text {
     width: 100%;
   }
-  .benefits__content__text__title {
-    font-size: 5rem;
-    margin-left: 5rem;
-    padding-top: 4rem;
-  }
-  .benefits__content__text__title--iphone {
-    margin-right: 35rem;
-  }
-  .benefits__content__text__title--trumpet {
-    padding-right: 45rem;
-  }
-  .benefits__content__text__description {
-    font-size: 3rem;
-    padding-bottom: 5rem;
-    margin-left: 5rem;
-  }
-  .benefits__content__text__description--trumpet {
-    margin-left: 5rem;
-    padding-right: 20rem;
-  }
   .benefits__content__text__vector {
     display: block;
-    padding-bottom: 8rem;
-    margin-left: 6rem;
   }
   .benefits__content__text__vector--macbook {
     width: 70%;
@@ -329,7 +270,6 @@ body {
     width: 50%;
   }
   .benefits__content__text--trumpet {
-    margin-right: 5rem;
     background-color: #FFF;
   }
 }
@@ -425,10 +365,6 @@ body {
   .pricing {
     width: 100%;
   }
-  .pricing__title {
-    font-size: 6rem;
-    padding-bottom: 6rem;
-  }
   .pricing__content {
     display: flex;
     width: 70%;
@@ -440,7 +376,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 20%;
-    padding-bottom: 4rem;
   }
   .pricing__content__ofert:hover {
     transform: scale(1.2);
@@ -457,17 +392,6 @@ body {
   .pricing__content__ofert__price {
     width: 100%;
     text-align: center;
-    padding-bottom: 1.5rem;
-  }
-  .pricing__content__ofert__price__title {
-    font-size: 4em;
-  }
-  .pricing__content__ofert__price__price {
-    font-size: 5rem;
-  }
-  .pricing__content__ofert__price__offer {
-    font-size: 2rem;
-    padding-bottom: 3rem;
   }
   .pricing__content__ofert__details {
     width: 100%;
@@ -477,13 +401,9 @@ body {
     justify-content: center;
   }
   .pricing__content__ofert li {
-    font-size: 2.5rem;
     text-align: center;
-    padding-bottom: 2rem;
   }
   .pricing__content__button {
-    padding: 1rem 6rem;
-    font-size: 1.5rem;
     right: 30%;
     bottom: -5%;
   }
@@ -576,28 +496,12 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 50%);
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 4rem;
   }
   .contact__us {
     width: 80%;
   }
-  .contact__us__question {
-    font-size: 6rem;
-  }
-  .contact__us__call-us {
-    font-size: 2.5rem;
-  }
   .contact__us__content {
     display: flex;
-  }
-  .contact__us__content__mail {
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-  }
-  .contact__us__content__mail__text {
-    font-size: 2.5rem;
   }
   .contact__us__content__phone {
     width: 3rem;
@@ -605,25 +509,14 @@ body {
     margin-left: 2.5rem;
     margin-right: 0.5rem;
   }
-  .contact__us__content__phone__text {
-    font-size: 2.5rem;
-  }
   .contact__form {
     width: 100%;
-  }
-  .contact__form__title {
-    font-size: 2rem;
   }
   .contact__form__icon {
     width: 3rem;
     height: 3rem;
   }
-  .contact__form__check {
-    font-size: 1.4rem;
-  }
   .contact__button {
-    padding: 2rem 11rem;
-    font-size: 1.5rem;
     border-radius: 3rem;
   }
 }
@@ -665,31 +558,19 @@ body {
 @media only screen and (min-width: 1000px) {
   .footer {
     box-shadow: 0px -5px 40px 0px rgba(0, 0, 0, 0.2);
-    padding-bottom: 4rem;
-    padding-top: 4rem;
   }
   .footer__text {
     width: 40%;
-    padding-left: 15rem;
-  }
-  .footer__text__title {
-    font-size: 6rem;
-  }
-  .footer__text__copy {
-    font-size: 2.5rem;
   }
   .footer__img {
     width: 55%;
     text-align: right;
-    padding-right: 5rem;
   }
   .footer__img__twitter {
-    width: 6rem;
-    margin-right: 2rem;
+    width: 3rem;
   }
   .footer__img__facebook {
-    width: 6rem;
-    margin-left: 2rem;
+    width: 3rem;
   }
 }
 

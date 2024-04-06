@@ -28,8 +28,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
         box-shadow: 0px 3px 6px 0px #0000004A;
 
         &__log{
@@ -41,7 +39,7 @@
 
         &__navbar {
             display: flex;
-            font-size: 0.5rem;
+            font-size: 1rem;
 
             &__items {
                 list-style: none;
