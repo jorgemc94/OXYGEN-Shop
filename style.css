@@ -155,7 +155,10 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .why-us {
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
+  }
+  .why-us__title {
+    font-size: 1.2rem;
   }
   .why-us__content {
     width: 85%;
