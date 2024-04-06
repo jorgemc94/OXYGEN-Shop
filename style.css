@@ -39,6 +39,9 @@ body {
     padding-bottom: 2rem;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   }
+  .nav__log {
+    font-size: 2rem;
+  }
   .nav__menu {
     display: none;
   }
@@ -47,7 +50,6 @@ body {
   }
   .nav__navbar__items {
     list-style: none;
-    display: inline-block;
   }
   .nav__navbar__items li {
     display: inline-block;
