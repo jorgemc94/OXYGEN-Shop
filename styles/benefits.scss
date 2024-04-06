@@ -80,5 +80,24 @@
         padding: 4rem 8rem;
         width: 100%;
         margin-bottom: 3rem;
+
+        &__content {
+            width: 100%;
+
+            &--macbook{
+                width: 50%;
+                &__img {
+                    width: 30%;
+
+                    &--macbook{
+                        width: 30%;
+                    }
+
+                    &--red {
+                        width: 30%;
+                    }
+                }
+            }
+        }
     }
 }

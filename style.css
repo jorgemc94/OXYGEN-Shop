@@ -249,6 +249,21 @@ body {
     width: 100%;
     margin-bottom: 3rem;
   }
+  .benefits__content {
+    width: 100%;
+  }
+  .benefits__content--macbook {
+    width: 50%;
+  }
+  .benefits__content--macbook__img {
+    width: 30%;
+  }
+  .benefits__content--macbook__img--macbook {
+    width: 30%;
+  }
+  .benefits__content--macbook__img--red {
+    width: 30%;
+  }
 }
 .pricing {
   width: 100%;
