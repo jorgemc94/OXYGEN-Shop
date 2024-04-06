@@ -272,22 +272,11 @@ body {
   .benefits__content__text {
     width: 100%;
   }
-  .benefits__content__text__description--trumpet {
-    margin-right: 2rem;
-  }
   .benefits__content__text__vector {
     display: block;
   }
-  .benefits__content__text__vector--macbook {
-    width: 70%;
-  }
-  .benefits__content__text__vector--iphone {
-    width: 75%;
-  }
-  .benefits__content__text__vector--trumpet {
-    width: 50%;
-  }
   .benefits__content__text--trumpet {
+    margin-right: 3rem;
     background-color: #FFF;
   }
 }
