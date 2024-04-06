@@ -47,8 +47,6 @@ body {
   }
   .nav__navbar {
     display: flex;
-    font-size: 3rem;
-    padding-right: 15rem;
   }
   .nav__navbar__items {
     list-style: none;
