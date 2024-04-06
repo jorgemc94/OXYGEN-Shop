@@ -158,13 +158,12 @@ body {
     padding-bottom: 5rem;
   }
   .why-us__title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .why-us__content {
-    width: 85%;
+    width: 60%;
     margin: auto;
     display: flex;
-    padding: 0rem;
   }
   .why-us__content__article {
     width: 100%;
