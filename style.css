@@ -578,7 +578,7 @@ body {
     margin: auto;
   }
   .contact__us {
-    width: 80%;
+    width: 65%;
   }
   .contact__us__question {
     font-size: 2.5rem;
@@ -612,7 +612,6 @@ body {
     width: 100%;
   }
   .contact__form__check {
-    width: 100%;
     font-size: 0.7rem;
   }
   .contact__button {
