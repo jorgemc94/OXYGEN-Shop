@@ -597,7 +597,7 @@ body {
     padding-right: 0.2rem;
   }
   .contact__us__content__mail__text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #A5A5A5;
     padding-right: 0.4rem;
   }
@@ -607,11 +607,15 @@ body {
     padding-right: 0.2rem;
   }
   .contact__us__content__phone__text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #A5A5A5;
   }
   .contact__form {
     width: 100%;
+  }
+  .contact__form__icon {
+    width: 1rem;
+    height: 1rem;
   }
   .contact__form__check {
     font-size: 0.55rem;
