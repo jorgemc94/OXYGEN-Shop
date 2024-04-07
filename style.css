@@ -582,7 +582,8 @@ body {
   }
   .contact__us__question {
     font-size: 2rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
   .contact__us__call-us {
     font-size: 0.7rem;
