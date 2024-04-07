@@ -295,7 +295,7 @@ body {
     background-color: #FFF;
   }
   .benefits__content__text__title {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 0rem;
     font-size: 1.5rem;
   }
@@ -310,8 +310,11 @@ body {
     padding-bottom: 2em;
     font-size: 0.7rem;
   }
+  .benefits__content__text__description--macbook {
+    padding-right: 10rem;
+  }
   .benefits__content__text__description--iphone {
-    padding-left: 8rem;
+    padding-left: 5rem;
   }
   .benefits__content__text__description--trumpet {
     padding-right: 10rem;

@@ -135,7 +135,7 @@
                 }
                 
                 &__title {
-                    padding-top: 4rem;
+                    padding-top: 3rem;
                     padding-bottom: 0rem;
                     font-size: 1.5rem;
 
@@ -153,8 +153,12 @@
                     padding-bottom: 2em;
                     font-size: 0.7rem;
 
+                    &--macbook{
+                        padding-right: 10rem;
+                    }
+
                     &--iphone {
-                        padding-left: 8rem;
+                        padding-left: 5rem;
                         
                     }
 
