@@ -580,22 +580,28 @@ body {
   .contact__us {
     width: 80%;
   }
+  .contact__us__question {
+    font-size: 1.5rem;
+  }
+  .contact__us__call-us {
+    font-size: 0.7rem;
+  }
   .contact__us__content {
     display: flex;
   }
   .contact__us__content__mail {
-    width: 5%;
-    height: 5%;
+    width: 7%;
+    height: 7%;
   }
   .contact__us__content__mail__text {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .contact__us__content__phone {
-    width: 5%;
-    height: 5%;
+    width: 7%;
+    height: 7%;
   }
   .contact__us__content__phone__text {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .contact__form {
     width: 100%;
