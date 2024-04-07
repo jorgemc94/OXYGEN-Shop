@@ -121,8 +121,8 @@
                 &__content {
                     display: flex;
                 &__mail {
-                    width: 10%;
-                    height: 10%;
+                    width: 8%;
+                    height: 8%;
                     padding-right: 0.2rem;
 
                     &__text{
@@ -131,8 +131,8 @@
                     }
                 }
                 &__phone {
-                    width: 10%;
-                    height: 10%;
+                    width: 8%;
+                    height: 8%;
                     padding-right: 0.2rem;
                 
                     &__text{
@@ -144,9 +144,10 @@
         }
 
         &__form {
-            width: 50%;
+            width: 100%;
 
             &__check {
+                width: 100%;
                 font-size: 0.7rem;
             }
             

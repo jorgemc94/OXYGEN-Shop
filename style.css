@@ -592,8 +592,8 @@ body {
     display: flex;
   }
   .contact__us__content__mail {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     padding-right: 0.2rem;
   }
   .contact__us__content__mail__text {
@@ -601,17 +601,18 @@ body {
     padding-right: 0.2rem;
   }
   .contact__us__content__phone {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     padding-right: 0.2rem;
   }
   .contact__us__content__phone__text {
     font-size: 0.7rem;
   }
   .contact__form {
-    width: 50%;
+    width: 100%;
   }
   .contact__form__check {
+    width: 100%;
     font-size: 0.7rem;
   }
   .contact__button {
