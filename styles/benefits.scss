@@ -169,13 +169,20 @@
 
                 &__vector {
                     display: block;
-                    width: 60%;
                     padding-bottom: 2rem;
                     padding-left: 1.5rem;
 
                     &--iphone{
                         padding-left: 7rem;
-                        width: 70%;
+                        width: 75%;
+                    }
+
+                    &--macbook {
+                        width: 55%;
+                    }
+
+                    &--trumpet {
+                        width: 55%;
                     }
                 }
             }

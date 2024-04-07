@@ -321,13 +321,18 @@ body {
   }
   .benefits__content__text__vector {
     display: block;
-    width: 60%;
     padding-bottom: 2rem;
     padding-left: 1.5rem;
   }
   .benefits__content__text__vector--iphone {
     padding-left: 7rem;
-    width: 70%;
+    width: 75%;
+  }
+  .benefits__content__text__vector--macbook {
+    width: 55%;
+  }
+  .benefits__content__text__vector--trumpet {
+    width: 55%;
   }
 }
 .pricing {
