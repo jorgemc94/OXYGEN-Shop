@@ -41,18 +41,14 @@
 @media only screen and (min-width: 1000px){
     .header {
         &__content {
-            
-            &__title {
-                font-size: 4rem;
-            }
 
             &__description {
-                font-size: 2rem;
+                font-size: 0.7rem;
             }
 
             &__button {
                 border-radius: 5rem;
-                padding: 1rem 8rem;
+                padding: 1rem 10rem;
             }
         }
         
