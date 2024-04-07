@@ -288,6 +288,7 @@ body {
   .benefits__content__text {
     padding: 0%;
     padding-left: 2rem;
+    padding-right: 5rem;
   }
   .benefits__content__text--trumpet {
     width: 60%;
@@ -299,9 +300,21 @@ body {
     padding-bottom: 0rem;
     font-size: 1.5rem;
   }
+  .benefits__content__text__title--iphone {
+    padding-left: 4rem;
+  }
+  .benefits__content__text__title--trumpet {
+    padding-right: 5rem;
+  }
   .benefits__content__text__description {
     padding-bottom: 2em;
     font-size: 0.7rem;
+  }
+  .benefits__content__text__description--iphone {
+    padding-left: 4rem;
+  }
+  .benefits__content__text__description--trumpet {
+    padding-right: 5rem;
   }
   .benefits__content__text__vector {
     display: block;
