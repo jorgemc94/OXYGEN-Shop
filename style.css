@@ -582,7 +582,7 @@ body {
   }
   .contact__us__question {
     font-size: 2rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
   }
   .contact__us__call-us {
@@ -594,21 +594,22 @@ body {
   .contact__us__content__mail {
     width: 10%;
     height: 10%;
-    padding-right: 0.5rem;
+    padding-right: 0.2rem;
   }
   .contact__us__content__mail__text {
     font-size: 0.7rem;
+    padding-right: 0.2rem;
   }
   .contact__us__content__phone {
     width: 10%;
     height: 10%;
-    padding-right: 0.5rem;
+    padding-right: 0.2rem;
   }
   .contact__us__content__phone__text {
     font-size: 0.7rem;
   }
   .contact__form {
-    width: 100%;
+    width: 50%;
   }
   .contact__form__check {
     font-size: 0.7rem;
