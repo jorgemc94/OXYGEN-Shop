@@ -618,10 +618,10 @@ body {
     height: 1.3rem;
   }
   .contact__form__check {
-    font-size: 0.58rem;
+    font-size: 0.56rem;
   }
   .contact__button {
-    padding: 1rem 4rem;
+    padding: 1rem 5rem;
     border-radius: 3rem;
   }
 }
