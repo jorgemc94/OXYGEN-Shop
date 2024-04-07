@@ -103,14 +103,14 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .header__content__title {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .header__content__description {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .header__content__button {
     border-radius: 5rem;
-    padding: 1rem 3rem;
+    padding: 1rem 8rem;
   }
   .header__background {
     width: 100%;
