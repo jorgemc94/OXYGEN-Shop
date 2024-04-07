@@ -109,7 +109,8 @@
         &__us {
             width: 80%;
             &__question {
-                font-size: 1.5rem;
+                font-size: 2rem;
+                padding-bottom: 1.5rem;
             
                 }
                 &__call-us {
@@ -121,17 +122,19 @@
                 &__mail {
                     width: 7%;
                     height: 7%;
+                    padding-right: 0.5rem;
 
                     &__text{
-                        font-size: 1rem;
+                        font-size: 0.7rem;
                     }
                 }
                 &__phone {
                     width: 7%;
                     height: 7%;
+                    padding-right: 0.5rem;
                 
                     &__text{
-                        font-size: 1rem;
+                        font-size: 0.7rem;
                     }
                 }
 

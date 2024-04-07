@@ -581,7 +581,8 @@ body {
     width: 80%;
   }
   .contact__us__question {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
   }
   .contact__us__call-us {
     font-size: 0.7rem;
@@ -592,16 +593,18 @@ body {
   .contact__us__content__mail {
     width: 7%;
     height: 7%;
+    padding-right: 0.5rem;
   }
   .contact__us__content__mail__text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .contact__us__content__phone {
     width: 7%;
     height: 7%;
+    padding-right: 0.5rem;
   }
   .contact__us__content__phone__text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .contact__form {
     width: 100%;
