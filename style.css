@@ -612,8 +612,7 @@ body {
     width: 100%;
   }
   .contact__form__check {
-    width: 100%;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .contact__button {
     border-radius: 3rem;
