@@ -581,12 +581,12 @@ body {
     width: 100%;
   }
   .contact__us__question {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     padding-top: 0.5rem;
     padding-bottom: 2rem;
   }
   .contact__us__call-us {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .contact__us__content {
     display: flex;
@@ -597,7 +597,8 @@ body {
     padding-right: 0.2rem;
   }
   .contact__us__content__mail__text {
-    font-size: 1rem;
+    font-size: 0.7rem;
+    color: #A5A5A5;
     padding-right: 0.4rem;
   }
   .contact__us__content__phone {
@@ -606,13 +607,14 @@ body {
     padding-right: 0.2rem;
   }
   .contact__us__content__phone__text {
-    font-size: 1rem;
+    font-size: 0.7rem;
+    color: #A5A5A5;
   }
   .contact__form {
     width: 100%;
   }
   .contact__form__check {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
   }
   .contact__button {
     padding: 1rem 6rem;
