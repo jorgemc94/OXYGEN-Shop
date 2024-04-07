@@ -300,26 +300,26 @@ body {
     font-size: 1.5rem;
   }
   .benefits__content__text__title--iphone {
-    padding-left: 10rem;
+    padding-left: 8rem;
+    padding-right: 5rem;
   }
   .benefits__content__text__title--trumpet {
-    padding-right: 15rem;
+    padding-right: 10rem;
   }
   .benefits__content__text__description {
     padding-bottom: 2em;
     font-size: 0.7rem;
   }
   .benefits__content__text__description--iphone {
-    padding-left: 10rem;
+    padding-left: 8rem;
   }
   .benefits__content__text__description--trumpet {
-    padding-right: 15rem;
+    padding-right: 10rem;
   }
   .benefits__content__text__vector {
     display: block;
     width: 50%;
     padding-bottom: 2rem;
-    padding-left: 2rem;
   }
 }
 .pricing {
