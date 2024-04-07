@@ -171,18 +171,11 @@
                     display: block;
                     padding-bottom: 2rem;
                     padding-left: 1.5rem;
+                    width: 53%;
 
                     &--iphone{
                         padding-left: 7rem;
                         width: 75%;
-                    }
-
-                    &--macbook {
-                        width: 55%;
-                    }
-
-                    &--trumpet {
-                        width: 55%;
                     }
                 }
             }
