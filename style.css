@@ -623,6 +623,7 @@ body {
   .contact__button {
     padding: 1rem 6rem;
     border-radius: 3rem;
+    right: -20%;
   }
 }
 .footer {
