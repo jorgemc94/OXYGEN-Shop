@@ -103,14 +103,14 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .header__content__title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .header__content__description {
     font-size: 1rem;
   }
   .header__content__button {
     border-radius: 5rem;
-    padding: 1rem 9rem;
+    padding: 1rem 10rem;
   }
   .header__background {
     width: 100%;
@@ -584,17 +584,11 @@ body {
     display: flex;
   }
   .contact__us__content__phone {
-    width: 3rem;
-    height: 3rem;
     margin-left: 2.5rem;
     margin-right: 0.5rem;
   }
   .contact__form {
     width: 100%;
-  }
-  .contact__form__icon {
-    width: 3rem;
-    height: 3rem;
   }
   .contact__button {
     border-radius: 3rem;
