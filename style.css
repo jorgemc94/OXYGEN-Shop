@@ -591,16 +591,16 @@ body {
     display: flex;
   }
   .contact__us__content__mail {
-    width: 7%;
-    height: 7%;
+    width: 10%;
+    height: 10%;
     padding-right: 0.5rem;
   }
   .contact__us__content__mail__text {
     font-size: 0.7rem;
   }
   .contact__us__content__phone {
-    width: 7%;
-    height: 7%;
+    width: 10%;
+    height: 10%;
     padding-right: 0.5rem;
   }
   .contact__us__content__phone__text {
