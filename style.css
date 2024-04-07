@@ -583,12 +583,25 @@ body {
   .contact__us__content {
     display: flex;
   }
+  .contact__us__content__mail {
+    width: 2%;
+    height: 2%;
+  }
+  .contact__us__content__mail__text {
+    font-size: 0.7rem;
+  }
   .contact__us__content__phone {
-    margin-left: 2.5rem;
-    margin-right: 0.5rem;
+    width: 2%;
+    height: 2%;
+  }
+  .contact__us__content__phone__text {
+    font-size: 0.7rem;
   }
   .contact__form {
     width: 100%;
+  }
+  .contact__form__check {
+    font-size: 0.7rem;
   }
   .contact__button {
     border-radius: 3rem;
