@@ -1,0 +1,18 @@
+#button_Up {
+    border: none;
+    background: transparent;
+    text-align: right;
+    padding: 1rem;
+}
+
+#logoup {
+    
+    width: 10%;
+    position: sticky;
+}
+
+@media only screen and (min-width: 1000px){
+    #button_Up {
+        transform: translateX(130%);
+    }
+}
