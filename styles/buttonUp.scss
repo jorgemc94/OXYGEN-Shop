@@ -2,7 +2,6 @@
     border: none;
     background: transparent;
     text-align: right;
-    padding: 1rem;
     position: sticky;
     top: 0;
 }
@@ -14,6 +13,6 @@
 
 @media only screen and (min-width: 1000px){
     #button_Up {
-        transform: translateX(130%);
+        transform: translateX(140%);
     }
 }
