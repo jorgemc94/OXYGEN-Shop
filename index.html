@@ -10,23 +10,21 @@
         <script src="js/main.js" defer></script>
     </head>
     <body>
-        <!--Percentage scroller-->
-        <div class="scroll">
-            <div class="scroll__progress" id="progress"></div>
-        </div>
         <!--Header-->
         <nav class="nav">
-            <div id="nav__progress" class="progress"></div>
-            <p class="nav__log">OXYGENShop</p>
-            <img src="img/Menu.png" class="nav__menu" alt="menu">
-            <div class="nav__navbar">
-                <ul class="nav__navbar__items">
-                    <li><a href="#why-us"> WHY US </a></li>
-                    <li><a href="#benefits">BENEFITS</a></li>
-                    <li><a href="#pricing">PRICES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+            <div class="nav__content">
+                <p class="nav__content__log">OXYGENShop</p>
+                <img src="img/Menu.png" class="nav__content__menu" alt="menu">
+                <div class="nav__content__navbar">
+                    <ul class="nav__content__navbar__items">
+                        <li><a href="#why-us"> WHY US </a></li>
+                        <li><a href="#benefits">BENEFITS</a></li>
+                        <li><a href="#pricing">PRICES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
+            <div class="nav__progress" id="progress"></div>
         </nav>
         <!--Main-->
         <header class="header">
@@ -175,11 +173,11 @@
             </div>
             <form class="contact__form">
                 <label class="contact__form__title" for="name">NAME
-                    <input type="text" class="contact__form__text" id="name" />
+                    <input type="text" class="contact__form__text" id="name" required/>
                 </label>
                 <label class="contact__form__title" for="email">
                     EMAIL
-                    <input type="email" class="contact__form__text" id="email" />
+                    <input type="email" class="contact__form__text" id="email" required/>
                 </label>
                 <input type="checkbox" checked="checked" class="contact__form__icon" id="check"/>
                 <label class="contact__form__check" for="check">

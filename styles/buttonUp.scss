@@ -3,16 +3,18 @@
     background: transparent;
     text-align: right;
     position: sticky;
-    top: 0;
+    top: 25%;
+    display: none;
 }
 
 #logoup {
-    width: 10%;
+    width: 8%;
     
 }
 
 @media only screen and (min-width: 1000px){
     #button_Up {
+        display: block;
         transform: translateX(140%);
     }
 }
