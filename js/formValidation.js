@@ -19,9 +19,7 @@
             return true;
         }
     }
-
     inputName.onchange = () => validName(); //Asignamos el evento onchange a nuestro input y cada vez que cambie su estado llama a la funcion validName();
-
     //Funcion validación email
 
     const validEmail = () => {
@@ -36,7 +34,6 @@
             return true
         }
     }
-
     inputEmail.onchange = () => validEmail(); //Asignamos el evento onchange a nuestro inputEmail y cada vez que cambie su estado llama a la funcion validEmail();
 
     //Funcion validacion checkbox
@@ -55,3 +52,5 @@
     }
 
     inputCheckbox.onchange = () => validCheck();//Asignamos el evento onchange a nuestro check y cada vez que cambie su estado llama a la funcion validCheck();
+
+//Recoger los datos del formulario y mandarselos a una API
