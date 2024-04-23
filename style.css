@@ -21,16 +21,37 @@ body {
   font-family: Raleway;
   font-size: 1.5rem;
   color: #08A6E4;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 .nav__content__menu {
   position: absolute;
   right: 0%;
   padding: 1rem;
 }
+.nav__content__borrar {
+  width: 2rem;
+  transform: translate(1040%, -115%);
+  display: none;
+}
 .nav__content__navbar {
   display: none;
   list-style: none;
+}
+.nav__content__navbar__items {
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+}
+.nav__content__navbar__items li {
+  padding-bottom: 1rem;
+  list-style: none;
+}
+.nav__content__navbar__items li a {
+  text-decoration: none;
+  color: #A5A5A5;
+  font-weight: bold;
+}
+.nav__content__navbar__items li a:hover {
+  color: black;
 }
 .nav__progress {
   width: 0%;
@@ -42,8 +63,8 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .nav__content {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +76,9 @@ body {
   .nav__content__menu {
     display: none;
   }
+  .nav__content__borra {
+    display: none;
+  }
   .nav__content__navbar {
     display: flex;
     font-size: 1rem;
@@ -62,6 +86,8 @@ body {
   }
   .nav__content__navbar__items {
     list-style: none;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
   }
   .nav__content__navbar__items li {
     display: inline-block;
@@ -74,7 +100,7 @@ body {
   .nav__content__navbar__items li a:hover {
     color: black;
     text-decoration: underline 0.3rem solid #08A6E4;
-    text-underline-offset: 2.5em;
+    text-underline-offset: 1.5em;
   }
   .nav__progress {
     top: auto;
