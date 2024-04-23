@@ -12,65 +12,72 @@ body {
 .nav {
   width: 100%;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background-color: #FFF;
+  z-index: 1;
 }
-.nav__progress {
-  width: 0;
-  height: 100%;
-  background-color: #08A6E4;
-}
-.nav__log {
+.nav__content__log {
   display: inline-block;
   font-family: Raleway;
   font-size: 1.5rem;
   color: #08A6E4;
   padding: 0.5rem;
 }
-.nav__menu {
+.nav__content__menu {
   position: absolute;
   right: 0%;
   padding: 1rem;
 }
-.nav__navbar {
+.nav__content__navbar {
   display: none;
   list-style: none;
 }
+.nav__progress {
+  width: 0%;
+  height: 0.3rem;
+  background-color: #08A6E4;
+  position: fixed;
+  top: 0;
+}
 
 @media only screen and (min-width: 1000px) {
-  .nav {
-    width: 100%;
+  .nav__content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    align-items: center;
   }
-  .nav__log {
+  .nav__content__log {
     font-size: 2rem;
-    padding-right: 30%;
+    padding-left: 6rem;
   }
-  .nav__menu {
+  .nav__content__menu {
     display: none;
   }
-  .nav__navbar {
+  .nav__content__navbar {
     display: flex;
     font-size: 1rem;
     padding-right: 4rem;
   }
-  .nav__navbar__items {
+  .nav__content__navbar__items {
     list-style: none;
   }
-  .nav__navbar__items li {
+  .nav__content__navbar__items li {
     display: inline-block;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
-  .nav__navbar__items li a {
+  .nav__content__navbar__items li a {
     text-decoration: none;
     color: #A5A5A5;
   }
-  .nav__navbar__items li a:hover {
+  .nav__content__navbar__items li a:hover {
     color: black;
-    text-decoration: underline;
+    text-decoration: underline 0.3rem solid #08A6E4;
+    text-underline-offset: 2.5em;
+  }
+  .nav__progress {
+    top: auto;
   }
 }
 .header {
@@ -111,6 +118,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .header__content__title {
     font-size: 3rem;
+    padding-top: 3rem;
   }
   .header__content__description {
     font-size: 1rem;
@@ -700,27 +708,19 @@ body {
   background: transparent;
   text-align: right;
   position: sticky;
-  top: 0;
+  top: 25%;
+  display: none;
 }
 
 #logoup {
-  width: 10%;
+  width: 8%;
 }
 
 @media only screen and (min-width: 1000px) {
   #button_Up {
+    display: block;
     transform: translateX(140%);
   }
-}
-.scroll {
-  position: fixed;
-  width: 100%;
-  height: 0.3rem;
-}
-.scroll__progress {
-  width: 0%;
-  height: 100%;
-  background-color: #08A6E4;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,76 +1,90 @@
 .nav {
     width: 100%;
     box-shadow: 0px 3px 6px  rgba(0, 0, 0, 0.20);
+    position: fixed;
+    background-color: #FFF;
+    z-index: 1;
 
-    &__progress {
-        width: 0;
-        height: 100%;
-        background-color: #08A6E4;
-    }
+    &__content {
 
-    &__log {
-        display: inline-block;
-        font-family: Raleway;
-        font-size: 1.5rem;
-        color: #08A6E4;
-        padding: 0.5rem;
-    }
-
-    &__menu {
-        position: absolute;
-        right: 0%;
-        padding: 1rem;
-
-    }
-
-    &__navbar {
-        display: none;
-        list-style: none;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .nav {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 0px 3px 6px 0px #0000004A;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-
-        &__log{
-            font-size: 2rem;
-            padding-right: 30%;
+        &__log {
+            display: inline-block;
+            font-family: Raleway;
+            font-size: 1.5rem;
+            color: #08A6E4;
+            padding: 0.5rem;
         }
+
         &__menu {
-            display: none;
+            position: absolute;
+            right: 0%;
+            padding: 1rem;
+
         }
 
         &__navbar {
+            display: none;
+            list-style: none;
+        }
+    }
+
+    &__progress {
+        width: 0%;
+        height: 0.3rem;
+        background-color: #08A6E4;
+        position: fixed;
+        top: 0;
+    }    
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .nav {
+        
+        &__content {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             display: flex;
-            font-size: 1rem;
-            padding-right: 4rem;
+            justify-content: space-between;
+            align-items: center;
 
-            &__items {
-                list-style: none;
-                li {
-                    display: inline-block;
-                    padding-left: 1rem;
-                    
-                    a {
-                        text-decoration: none;
-                        color: #A5A5A5;
+            &__log{
+                font-size: 2rem;
+                padding-left: 6rem;
+            }
+            &__menu {
+                display: none;
+            }
 
-                        &:hover {
-                            color: black;
-                            text-decoration: underline;
-                            
+            &__navbar {
+                display: flex;
+                font-size: 1rem;
+                padding-right: 4rem;
+
+                &__items {
+                    list-style: none;
+                    li {
+                        display: inline-block;
+                        padding-left: 2rem;
+                        
+                        a {
+                            text-decoration: none;
+                            color: #A5A5A5;
+
+                            &:hover {
+                                color: black;
+                                text-decoration: underline 0.3rem solid #08A6E4;
+                                text-underline-offset: 2.5em;
+                            }
                         }
                     }
                 }
+                
             }
-            
+        }
+
+        &__progress {
+            top: auto;
         }
     }
 }
