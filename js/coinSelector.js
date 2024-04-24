@@ -22,7 +22,9 @@ fetch(currencyValue).then((response) => {
             eur = jsonUsd.usd.eur;
             gbp = jsonUsd.usd.gbp;
             usdToeurPro = 25 * (eur);
+            console.log(usdToeurPro)
             usdToeurProfesional = usdToeurPro.toFixed(2);
+            console.log(usdToeurProfesional)
             usdToeurPre = 60 * (eur);
             usdToeurPremium = usdToeurPre.toFixed(2);
             usdTogbpPro = 25 * (gbp);
@@ -53,7 +55,7 @@ fetch(currencyValue).then((response) => {
             basic.innerText = '';
             basic.innerText = `$0`;
             profesional.innerText = '';
-            profesional.innerText = `$25`
+            profesional.innerText = `$25`;
             premium.innerText = '';
             premium.innerText = `$60`;
         })
