@@ -102,16 +102,21 @@
                 </div>    
             </article>
         </section>
-        <button type="button" id="button_Up"><img src="img/chevron-arriba.png" id="logoup" id="button_Up" alt="up"/></button>
+        
         <!--Pricing-->
         <section class="pricing" id="pricing">
             <p class="pricing__title">Pricing</p>
+            <div class="pricing__currency">
+                <button type="button" id="eur" class="pricing__currency__button">EUR €</button>
+                <button type="button" id="gbp" class="pricing__currency__button">GBP £</button>
+                <button type="button" id="usd" class="pricing__currency__button">USD $</button>
+            </div>
             <!--Red-->
             <div class="pricing__content">
                 <article class="pricing__content__ofert pricing__content__ofert--red">
                     <div class="pricing__content__ofert__price">
                         <p class="pricing__content__ofert__price__title">Basic</p>
-                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--red">$0</p>
+                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--red" id="basic">$0</p>
                     </div>
                     <div class="pricing__content__ofert__details">
                         <ul class="pricing__content__ofert__details__check">
@@ -130,7 +135,7 @@
                 <article class="pricing__content__ofert pricing__content__ofert--blue">
                     <div class="pricing__content__ofert__price">
                         <p class="pricing__content__ofert__price__title">Profesional</p>
-                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--blue">$25</p>
+                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--blue" id="profesional">$25</p>
                         <p class="pricing__content__ofert__price__offer">Limited offer</p>
                     </div>
                     <div class="pricing__content__ofert__details">
@@ -150,7 +155,7 @@
                 <article class="pricing__content__ofert pricing__content__ofert--green">
                     <div class="pricing__content__ofert__price">
                         <p class="pricing__content__ofert__price__title">Premium</p>
-                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--green">$60</p>
+                        <p class="pricing__content__ofert__price__price  pricing__content__ofert__price__price--green" id="premium">$60</p>
                         <p class="pricing__content__ofert__price__offer">Limited offer</p>
                     </div>
                     <div class="pricing__content__ofert__details">
@@ -186,13 +191,14 @@
                     EMAIL
                     <input type="email" class="contact__form__text" id="email" required/>
                 </label>
-                <input type="checkbox" checked="checked" class="contact__form__icon" id="check"/>
+                <input type="checkbox" class="contact__form__icon" id="check"/>
                 <label class="contact__form__check" for="check">
                     I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
                 </label>
-                <button type="button" class="contact__button">Send</button>
+                <button type="submit" class="contact__button">Send</button>
             </form>
         </section>
+        <button type="button" id="button_Up"><img src="img/chevron-arriba.png" id="logoup" id="button_Up" alt="up"/></button>
         <!--Footer-->
         <footer class="footer">
             <div class="footer__text">
