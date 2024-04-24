@@ -629,6 +629,7 @@ body {
   transform: translateX(100%);
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -751,23 +752,25 @@ body {
     padding: 0.5rem;
   }
 }
-#button_Up {
+.button__up {
+  bottom: 5rem;
+  right: 1rem;
+  z-index: 1;
+  position: fixed;
+  width: 3.5rem;
+  height: 3.5rem;
   border: none;
-  background: transparent;
-  text-align: right;
-  position: sticky;
-  top: 25%;
-  display: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  background-color: #08A6E4;
 }
 
-#logoup {
-  width: 8%;
-}
-
-@media only screen and (min-width: 1000px) {
-  #button_Up {
-    display: block;
-    transform: translateX(140%);
+@media (min-width: 1000px) {
+  .button__up {
+    bottom: 6rem;
+    right: 2rem;
   }
 }
 
