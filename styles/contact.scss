@@ -60,6 +60,10 @@
             border-bottom: 1px solid black;
             margin-top: 3rem;
             margin-bottom: 2rem;
+
+            &--red {
+                border-bottom: 1px solid red;
+            }
         }
 
         &__icon {
@@ -69,6 +73,10 @@
             height: 1.6rem;
             appearance: none;
             border: 0.1rem solid black;
+
+            &--red {
+                border: 0.1rem solid red;
+            }
 
             &:checked {
                 background-image: url("img/checked.png");

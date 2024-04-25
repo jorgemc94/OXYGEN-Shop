@@ -1,4 +1,4 @@
-
+    const validForm = () => {
     const form = document.getElementById('form');
     form.addEventListener('submit', (event) => {
         const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -12,29 +12,32 @@
         let emailCorrect = false;
         event.preventDefault();
         if (userName.length < 2 || userName.length > 100) {
-            inputName.style.cssText = 'border-bottom: 0.2rem solid red';
+            inputName.classList.add('contact__form__text--red');
             alert ('Enter name valid');
             
         } else {
-            inputName.style.cssText = '';
+            inputName.classList.remove('contact__form__text--red');
+            inputName.classList.add('contact__form__text');
             inputName.value = '';
             nameCorrect = true;
         }
 
         if (!regex.test(userEmail)) {
-            inputEmail.style.cssText = 'border-bottom: 0.2rem solid red';
+            inputEmail.classList.add('contact__form__text--red');
             alert ('Enter mail valid');
         } else {
-            inputEmail.style.cssText = '';
+            inputEmail.classList.remove('contact__form__text--red');
+            inputEmail.classList.add('contact__form__text')
             inputEmail.value = '';
             emailCorrect = true;
         }
 
         if (!inputCheckbox.checked) {
-            inputCheckbox.style.cssText = 'border: 0.2rem solid red';
+            inputCheckbox.classList.add('contact__form__icon--red');
             alert ('accept terms and conditions');
         } else {
-            inputCheckbox.style.cssText = '';
+            inputCheckbox.classList.remove('contact__form__icon--red');
+            inputCheckbox.classList.add('contact__form__icon');
             inputCheckbox.checked = false;
             checkedCorrect = true;
         }
@@ -64,4 +67,6 @@
         validation(url);
     })
 
-   
+}
+
+validForm();

@@ -16,6 +16,15 @@
         <script src="js/slider.js"></script>
     </head>
     <body>
+        <!--Popup-->
+        <dialog class="popup" id="popup">
+            <img src="img/cerrar-ventana.png" class="popup__close" alt="close" id="close"/>
+            <h3 class="popup__title">SUBCRIBE NOW</h3>
+            <p class="popup__description">Sign up for our newsletter and be the first to know about our new products, discounts, and exclusive offers.</p>
+            <input type="text" class="popup__input" id="nameNewsletter" placeholder="Your name"/>
+            <input type="email" class="popup__input" id="emailNewsletter" placeholder="Your mail"/>
+            <button type="submit" class="popup__send">Send</button>
+        </dialog>
         <!--Header-->
         <nav class="nav">
             <div class="nav__content">
@@ -198,7 +207,7 @@
                 <button type="submit" class="contact__button">Send</button>
             </form>
         </section>
-            <button type="button" class="button__up" id="button_Up">↑</button>
+            <button type="button" class="button__up" id="button_Up">&#8679;</button>
         <!--Footer-->
         <footer class="footer">
             <div class="footer__text">

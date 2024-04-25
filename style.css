@@ -602,6 +602,9 @@ body {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
+.contact__form__text--red {
+  border-bottom: 1px solid red;
+}
 .contact__form__icon {
   display: inline-block;
   margin-right: 0.5rem;
@@ -609,6 +612,9 @@ body {
   height: 1.6rem;
   appearance: none;
   border: 0.1rem solid black;
+}
+.contact__form__icon--red {
+  border: 0.1rem solid red;
 }
 .contact__form__icon:checked {
   background-image: url("img/checked.png");
@@ -771,6 +777,94 @@ body {
   .button__up {
     bottom: 6rem;
     right: 2rem;
+  }
+}
+.popup {
+  display: none;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  border: 0.1rem solid #08A6E4;
+  background-color: #FFF;
+  width: 70%;
+  transform: translate(22%, 25%);
+  z-index: 1;
+  position: fixed;
+}
+.popup__close {
+  width: 10%;
+  transform: translate(950%, -60%);
+  cursor: pointer;
+}
+.popup__title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+  color: #08A6E4;
+}
+.popup__description {
+  color: #08A6E4;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-style: oblique;
+}
+.popup__input {
+  border: none;
+  margin-bottom: 1rem;
+  background-color: #FFF;
+  color: #08A6E4;
+  border-bottom: 0.1rem solid #08A6E4;
+}
+.popup__input::placeholder {
+  color: #08A6E4;
+  font-style: oblique;
+  font-family: Open Sans;
+}
+.popup__send {
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #08A6E4;
+  color: #FFF;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup {
+    width: 50%;
+    transform: translate(50%, 15%);
+    padding: 3rem;
+  }
+  .popup__close {
+    width: 6%;
+    transform: translate(1600%, -100%);
+  }
+  .popup__title {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  .popup__description {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+  }
+  .popup__input {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+  .popup__input::placeholder {
+    font-size: 1.4rem;
+  }
+  .popup__send {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
 }
 
