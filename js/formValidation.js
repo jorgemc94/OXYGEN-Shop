@@ -44,7 +44,6 @@
 
             const url = 'https://jsonplaceholder.typicode.com/posts';
             const validation = (url) => {
-            
                 if (nameCorrect && emailCorrect && checkedCorrect) {
                     fetch(url, {
                         method: 'POST',
