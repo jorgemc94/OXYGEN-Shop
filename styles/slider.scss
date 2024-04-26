@@ -38,10 +38,11 @@
         padding-right: 6rem;
 
         &__content {
+            display: flex;
+            justify-content: center;
             img{
                 left: 0;
-                transform: translateX(25%);
-                height: 28rem;
+                height: 35rem;
                 width: auto;
             }
         }
@@ -50,11 +51,11 @@
             width: 100%;
             display: flex;
             &__next {
-                transform: translate(2165%, -710%);
+                transform: translate(2770%, -850%);
             }
     
             &__prev {
-                transform: translate(545%, -710%);
+                transform: translate(650%, -850%);
             }
         }
     }

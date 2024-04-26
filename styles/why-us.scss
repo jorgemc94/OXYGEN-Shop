@@ -58,7 +58,7 @@
         padding-right: 20%;
         
         &__title {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
 
         &__content {
@@ -92,8 +92,11 @@
                 }
             
                 &__description {
+                    width: 100%;
                     color: #A5A5A5;
-                    font-size: 0.5rem;
+                    font-size: 1rem;
+                    padding-left: 5.5rem;
+                    padding-right: 5.5rem;
                 }
             }
         }

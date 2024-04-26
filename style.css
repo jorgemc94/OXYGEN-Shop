@@ -153,8 +153,9 @@ body {
     font-size: 1rem;
   }
   .header__content__button {
+    font-size: 1.5rem;
     border-radius: 5rem;
-    padding: 1rem 10rem;
+    padding: 1rem 8rem;
   }
   .header__background {
     width: 100%;
@@ -211,7 +212,7 @@ body {
     padding-right: 20%;
   }
   .why-us__title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .why-us__content {
     display: flex;
@@ -238,8 +239,11 @@ body {
     width: 3rem;
   }
   .why-us__content__article__description {
+    width: 100%;
     color: #A5A5A5;
-    font-size: 0.5rem;
+    font-size: 1rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
   }
 }
 .benefits {
@@ -296,7 +300,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .benefits {
-    padding: 4rem 10rem;
+    padding: 4rem 8rem;
     width: 100%;
     margin-bottom: 3rem;
   }
@@ -308,13 +312,17 @@ body {
     flex-direction: row-reverse;
   }
   .benefits__content--macbook__img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
   }
   .benefits__content--macbook__img--macbook {
     width: 100%;
+    height: auto;
   }
   .benefits__content--macbook__img--red {
     width: 100%;
+    height: a;
   }
   .benefits__content--iphone {
     display: flex;
@@ -339,6 +347,7 @@ body {
   .benefits__content__text {
     padding: 0%;
     padding-left: 2rem;
+    padding-top: 1.5rem;
   }
   .benefits__content__text--trumpet {
     width: 60%;
@@ -346,29 +355,28 @@ body {
     background-color: #FFF;
   }
   .benefits__content__text__title {
-    padding-top: 3rem;
     padding-bottom: 0rem;
-    font-size: 1.5rem;
+    font-size: 2.6rem;
   }
   .benefits__content__text__title--iphone {
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 6rem;
+    padding-right: 8rem;
   }
   .benefits__content__text__title--trumpet {
-    padding-right: 10rem;
+    padding-right: 7rem;
   }
   .benefits__content__text__description {
-    padding-bottom: 2em;
-    font-size: 0.7rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
   }
   .benefits__content__text__description--macbook {
-    padding-right: 5rem;
+    padding-right: 5.5rem;
   }
   .benefits__content__text__description--iphone {
-    padding-left: 7rem;
+    padding-left: 6rem;
   }
   .benefits__content__text__description--trumpet {
-    padding-right: 10rem;
+    padding-right: 7rem;
   }
   .benefits__content__text__vector {
     display: block;
@@ -377,7 +385,7 @@ body {
     width: 53%;
   }
   .benefits__content__text__vector--iphone {
-    padding-left: 7rem;
+    padding-left: 6rem;
     width: 75%;
   }
 }
@@ -487,8 +495,8 @@ body {
     width: 100%;
   }
   .pricing__title {
-    font-size: 2.5rem;
-    padding-bottom: 3rem;
+    font-size: 3rem;
+    padding-bottom: 3.5rem;
   }
   .pricing__currency {
     padding-bottom: 3.5rem;
@@ -531,10 +539,10 @@ body {
     padding: 0.5rem;
   }
   .pricing__content__ofert__price__price--red {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
   .pricing__content__ofert__price__offer {
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
   }
   .pricing__content__ofert__details {
@@ -691,7 +699,7 @@ body {
     height: 1.3rem;
   }
   .contact__form__check {
-    font-size: 0.56rem;
+    font-size: 0.65rem;
   }
   .contact__button {
     padding: 1rem 4.5rem;
@@ -742,8 +750,8 @@ body {
     padding-left: 3rem;
   }
   .footer__text__title {
-    font-size: 1rem;
-    padding-right: 5rem;
+    font-size: 1.2rem;
+    padding-right: 10rem;
   }
   .footer__text__copy {
     font-size: 1rem;
@@ -838,8 +846,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .popup {
-    width: 50%;
-    transform: translate(50%, 15%);
+    justify-content: center;
     padding: 3rem;
   }
   .popup__close {
@@ -907,10 +914,13 @@ body {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+  .slider__content {
+    display: flex;
+    justify-content: center;
+  }
   .slider__content img {
     left: 0;
-    transform: translateX(25%);
-    height: 28rem;
+    height: 35rem;
     width: auto;
   }
   .slider__move {
@@ -918,10 +928,10 @@ body {
     display: flex;
   }
   .slider__move__next {
-    transform: translate(2165%, -710%);
+    transform: translate(2770%, -850%);
   }
   .slider__move__prev {
-    transform: translate(545%, -710%);
+    transform: translate(650%, -850%);
   }
 }
 
