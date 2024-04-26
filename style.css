@@ -241,9 +241,9 @@ body {
   .why-us__content__article__description {
     width: 100%;
     color: #A5A5A5;
-    font-size: 1rem;
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
+    font-size: 1.3rem;
+    padding-left: 6.7rem;
+    padding-right: 6.7rem;
   }
 }
 .benefits {
@@ -300,7 +300,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .benefits {
-    padding: 4rem 8rem;
+    padding: 5rem 15rem;
     width: 100%;
     margin-bottom: 3rem;
   }
@@ -314,30 +314,12 @@ body {
   .benefits__content--macbook__img {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    width: 100%;
-  }
-  .benefits__content--macbook__img--macbook {
-    width: 100%;
-    height: auto;
-  }
-  .benefits__content--macbook__img--red {
-    width: 100%;
-    height: a;
   }
   .benefits__content--iphone {
     display: flex;
-  }
-  .benefits__content--iphone__img {
-    width: 100%;
-  }
-  .benefits__content--iphone__img--iphone {
-    width: 100%;
-  }
-  .benefits__content--iphone__img--blue {
-    width: 100%;
+    align-items: center;
   }
   .benefits__content--trumpet {
-    width: 100%;
     display: flex;
     background-color: #F7F7F7;
   }
@@ -345,9 +327,7 @@ body {
     width: 40%;
   }
   .benefits__content__text {
-    padding: 0%;
     padding-left: 2rem;
-    padding-top: 1.5rem;
   }
   .benefits__content__text--trumpet {
     width: 60%;
@@ -359,34 +339,36 @@ body {
     font-size: 2.6rem;
   }
   .benefits__content__text__title--iphone {
-    padding-left: 6rem;
+    padding-left: 25rem;
     padding-right: 8rem;
   }
   .benefits__content__text__title--trumpet {
-    padding-right: 7rem;
+    padding-right: 15rem;
   }
   .benefits__content__text__description {
-    padding-bottom: 2rem;
     font-size: 1.2rem;
+    padding-bottom: 1.5rem;
   }
   .benefits__content__text__description--macbook {
-    padding-right: 5.5rem;
+    padding-top: 2rem;
+    padding-right: 28rem;
+    padding-bottom: 1.5rem;
   }
   .benefits__content__text__description--iphone {
-    padding-left: 6rem;
+    padding-left: 25rem;
   }
   .benefits__content__text__description--trumpet {
-    padding-right: 7rem;
+    padding-right: 15rem;
   }
   .benefits__content__text__vector {
     display: block;
-    padding-bottom: 2rem;
+    width: 40%;
+    padding-bottom: 1.5rem;
     padding-left: 1.5rem;
-    width: 53%;
   }
   .benefits__content__text__vector--iphone {
-    padding-left: 6rem;
-    width: 75%;
+    width: 80%;
+    padding-left: 25rem;
   }
 }
 .pricing {
@@ -699,7 +681,7 @@ body {
     height: 1.3rem;
   }
   .contact__form__check {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
   }
   .contact__button {
     padding: 1rem 4.5rem;
@@ -750,11 +732,12 @@ body {
     padding-left: 3rem;
   }
   .footer__text__title {
-    font-size: 1.2rem;
-    padding-right: 10rem;
+    font-size: 1.5rem;
+    padding-right: 12rem;
   }
   .footer__text__copy {
     font-size: 1rem;
+    padding-right: 8rem;
   }
   .footer__img {
     width: 55%;
@@ -795,7 +778,7 @@ body {
   display: none;
   flex-direction: column;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 6rem;
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   border: 0.1rem solid #08A6E4;
   background-color: #FFF;
@@ -806,7 +789,8 @@ body {
 }
 .popup__close {
   width: 10%;
-  transform: translate(950%, -60%);
+  margin-top: 2rem;
+  transform: translateX(950%);
   cursor: pointer;
 }
 .popup__title {
@@ -822,7 +806,14 @@ body {
   padding-bottom: 1rem;
   font-style: oblique;
 }
+.popup__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .popup__input {
+  width: 70%;
   border: none;
   margin-bottom: 1rem;
   background-color: #FFF;
@@ -835,11 +826,13 @@ body {
   font-family: Open Sans;
 }
 .popup__send {
+  width: 10%;
   padding: 0.5rem 0.5rem;
   border-radius: 1rem;
   border: none;
   background-color: #08A6E4;
   color: #FFF;
+  font-size: 1rem;
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   cursor: pointer;
 }
@@ -928,10 +921,10 @@ body {
     display: flex;
   }
   .slider__move__next {
-    transform: translate(2770%, -850%);
+    transform: translate(3350%, -850%);
   }
   .slider__move__prev {
-    transform: translate(650%, -850%);
+    transform: translate(1250%, -850%);
   }
 }
 
