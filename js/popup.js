@@ -1,8 +1,13 @@
 const popup = document.getElementById('popup');
 const close = document.getElementById('close');
+const nameNewsletter = document.getElementById('nameNewsletter');
+const emailNewsletter = document.getElementById('emailNewsletter');
+const submitNewsletter = document.getElementById('submitNewsletter');
+const titleNewsletter = document.getElementById('titleNewsletter');
+const descriptionNewsletter = document.getElementById('descriptionNewsletter');
+
 
 localStorage.setItem('newsletterShown', 'false');
-console.log(localStorage.newsletterShown);
 
 setTimeout(() => {
     if (localStorage.getItem('newsletterShown') === 'false') {
@@ -30,9 +35,25 @@ document.addEventListener('keydown', (event) => {
 
 
 document.addEventListener('click', (event) => {
-    if (event.target !== popup) {
+    if (event.target !== popup){
         popup.style.display = 'none';
         localStorage.setItem('newsletterShown', 'true');
     }
 })
 
+
+nameNewsletter.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
+emailNewsletter.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
+titleNewsletter.addEventListener('click', (event) => {
+    event.stopPropagation();
+})
+
+descriptionNewsletter.addEventListener('click', (event) => {
+    event.stopPropagation();
+})

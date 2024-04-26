@@ -73,6 +73,7 @@
             height: 1.6rem;
             appearance: none;
             border: 0.1rem solid black;
+            cursor: pointer;
 
             &--red {
                 border: 0.1rem solid red;
@@ -102,6 +103,7 @@
         box-shadow: 5px 10px 14px 0px #07ACE64A;
         margin-top: 2.5rem;
         margin-bottom: 1.5rem;
+        cursor: pointer;
     }
 
 }   
