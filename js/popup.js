@@ -10,7 +10,6 @@ const descriptionPopup = document.getElementById('descriptionPopup');
 localStorage.setItem('newsletterShown', 'false');
 
 
-
 setTimeout(() => {
     if (localStorage.getItem('newsletterShown') !== 'false') {
         popup.style.display = 'flex';
