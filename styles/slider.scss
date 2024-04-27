@@ -13,12 +13,15 @@
     &__move {
         width: 100%;
         display: flex;
+        justify-content: space-between;
         &__next {
-            transform: translate(765%, -350%);
+            padding-right: 2rem;
+            transform: translateY(-380%);
         }
 
         &__prev {
-            transform: translate(65%, -345%);
+            padding-left: 2rem;
+            transform: translateY(-380%);
         }
     }
 }
@@ -33,29 +36,30 @@
 
 @media only screen and (min-width: 1000px) {
     .slider{
-        width: 100%;
-        padding-left: 6rem;
-        padding-right: 6rem;
+       margin-bottom: 4rem;
 
         &__content {
-            display: flex;
+            width: 100%;
             justify-content: center;
+            display: flex;
+           
             img{
-                left: 0;
-                height: 35rem;
-                width: auto;
+                height: auto;
+                width: 70%;
             }
         }
 
         &__move {
             width: 100%;
-            display: flex;
+            justify-content: space-around;
             &__next {
-                transform: translate(3350%, -850%);
+                transform: translateY(-1200%);
+                padding-left: 4rem;
             }
     
             &__prev {
-                transform: translate(1250%, -850%);
+                transform: translateY(-1200%);
+                padding-right: 4rem;
             }
         }
     }
