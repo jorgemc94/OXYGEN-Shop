@@ -45,7 +45,7 @@
            
             img{
                 height: auto;
-                width: 70%;
+                width: 50%;
             }
         }
 
@@ -53,13 +53,13 @@
             width: 100%;
             justify-content: space-around;
             &__next {
-                transform: translateY(-1200%);
-                padding-left: 4rem;
+                transform: translateY(-1000%);
+                padding-right: 4rem;
             }
     
             &__prev {
-                transform: translateY(-1200%);
-                padding-right: 4rem;
+                transform: translateY(-1000%);
+                padding-left: 4rem;
             }
         }
     }

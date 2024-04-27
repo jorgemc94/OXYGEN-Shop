@@ -77,9 +77,9 @@
 
 @media only screen and (min-width: 1000px) {
    .benefits {
+        width: 100%;
         padding: 5rem 15rem;
         &__content {
-
             &--macbook{
                 padding-top: 2rem;
                 display: flex;
