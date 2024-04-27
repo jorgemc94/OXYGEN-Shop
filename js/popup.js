@@ -9,6 +9,8 @@ const descriptionPopup = document.getElementById('descriptionPopup');
 
 localStorage.setItem('newsletterShown', 'false');
 
+
+
 setTimeout(() => {
     if (localStorage.getItem('newsletterShown') !== 'false') {
         popup.style.display = 'flex';
@@ -20,6 +22,7 @@ window.addEventListener('scroll', () => {
         popup.style.display = 'flex';
     }
 })
+
 
 
 close.addEventListener('click', () => {

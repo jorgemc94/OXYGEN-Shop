@@ -301,74 +301,68 @@ body {
 @media only screen and (min-width: 1000px) {
   .benefits {
     padding: 5rem 15rem;
-    width: 100%;
-    margin-bottom: 3rem;
-  }
-  .benefits__content {
-    width: 100%;
   }
   .benefits__content--macbook {
+    padding-top: 2rem;
     display: flex;
     flex-direction: row-reverse;
   }
-  .benefits__content--macbook__img {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
   .benefits__content--iphone {
     display: flex;
-    align-items: center;
   }
   .benefits__content--trumpet {
     display: flex;
     background-color: #F7F7F7;
   }
   .benefits__content--trumpet__img {
+    padding-top: 3rem;
     width: 40%;
   }
   .benefits__content__text {
-    padding-left: 2rem;
+    width: 60%;
   }
   .benefits__content__text--trumpet {
-    width: 60%;
+    width: 70%;
     margin-right: 3rem;
     background-color: #FFF;
   }
   .benefits__content__text__title {
-    padding-bottom: 0rem;
-    font-size: 2.6rem;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
   }
   .benefits__content__text__title--iphone {
-    padding-left: 25rem;
-    padding-right: 8rem;
+    margin-left: 7rem;
+    width: 45%;
   }
   .benefits__content__text__title--trumpet {
-    padding-right: 15rem;
+    width: 50%;
   }
   .benefits__content__text__description {
-    font-size: 1.2rem;
-    padding-bottom: 1.5rem;
+    font-size: 1.1rem;
+    padding-bottom: 2.5rem;
+    padding-left: 4rem;
   }
   .benefits__content__text__description--macbook {
-    padding-top: 2rem;
-    padding-right: 28rem;
-    padding-bottom: 1.5rem;
+    width: 70%;
   }
   .benefits__content__text__description--iphone {
-    padding-left: 25rem;
+    margin-left: 7rem;
+    width: 75%;
   }
   .benefits__content__text__description--trumpet {
-    padding-right: 15rem;
+    width: 65%;
   }
   .benefits__content__text__vector {
     display: block;
-    width: 40%;
-    padding-bottom: 1.5rem;
-    padding-left: 1.5rem;
+    width: 50%;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
   }
   .benefits__content__text__vector--iphone {
-    width: 80%;
-    padding-left: 25rem;
+    margin-left: 7rem;
+    width: 60%;
   }
 }
 .pricing {
@@ -778,7 +772,6 @@ body {
   display: none;
   flex-direction: column;
   border-radius: 2rem;
-  padding: 6rem;
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   border: 0.1rem solid #08A6E4;
   background-color: #FFF;
@@ -884,12 +877,15 @@ body {
 .slider__move {
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .slider__move__next {
-  transform: translate(765%, -350%);
+  padding-right: 2rem;
+  transform: translateY(-380%);
 }
 .slider__move__prev {
-  transform: translate(65%, -345%);
+  padding-left: 2rem;
+  transform: translateY(-380%);
 }
 
 .material-symbols-outlined {
@@ -903,28 +899,28 @@ body {
 
 @media only screen and (min-width: 1000px) {
   .slider {
-    width: 100%;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    margin-bottom: 4rem;
   }
   .slider__content {
-    display: flex;
+    width: 100%;
     justify-content: center;
+    display: flex;
   }
   .slider__content img {
-    left: 0;
-    height: 35rem;
-    width: auto;
+    height: auto;
+    width: 70%;
   }
   .slider__move {
     width: 100%;
-    display: flex;
+    justify-content: space-around;
   }
   .slider__move__next {
-    transform: translate(3350%, -850%);
+    transform: translateY(-1200%);
+    padding-left: 4rem;
   }
   .slider__move__prev {
-    transform: translate(1250%, -850%);
+    transform: translateY(-1200%);
+    padding-right: 4rem;
   }
 }
 
