@@ -19,17 +19,24 @@
             position: absolute;
             right: 0%;
             padding: 1rem;
+
+            &--active {
+                content: url('./img/borrar.png');
+                width: 3.5rem;
+            }
         }
 
         &__borrar {
-            width: 2rem;
-            transform: translate(1040%, -115%);
             display: none;
         }
 
         &__navbar {
             display: none;
             list-style: none;
+
+            &--active {
+                display: block;
+            }
 
             &__items {
                 padding-left: 1rem;
