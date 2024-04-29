@@ -12,13 +12,13 @@
 
 
     setTimeout(() => {
-        if (localStorage.getItem('newsletterShown') !== 'true') {
+        if (localStorage.getItem('newsletterShown') !== 'false') {
             popup.style.display = 'flex';
         }
     }, 5000);
 
     window.addEventListener('scroll', () => {
-        if(window.scrollY/document.documentElement.scrollHeight >= 0.25 && localStorage.getItem('newsletterShown') !== 'true') {
+        if(window.scrollY/document.documentElement.scrollHeight >= 0.25 && localStorage.getItem('newsletterShown') !== 'false') {
             popup.style.display = 'flex';
         }
     })
