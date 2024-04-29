@@ -13,3 +13,11 @@
             });
         }, 200);
     });
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY < (document.body.scrollHeight - window.innerHeight) * 0.25) {
+            btn_Up.style.display = 'none';
+        } else {
+            btn_Up.style.display = 'block';
+        }
+    })
