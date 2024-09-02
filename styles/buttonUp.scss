@@ -1,0 +1,21 @@
+.button__up{
+    bottom: 5rem;
+    right: 1rem;
+    z-index: 1;
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+    background-color: #08A6E4;
+    }
+
+    @media (min-width: 1000px) {
+        .button__up {
+            bottom: 6rem;
+            right: 2rem;
+        }
+        }

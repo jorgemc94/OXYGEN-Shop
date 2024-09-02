@@ -9,6 +9,21 @@
         
     }
 
+    &__currency{
+        text-align: center;
+        padding-bottom: 1.5rem;
+        
+        &__button {
+            background-color: #FFF;
+            color:#07ACE6;
+            border-radius: 1rem;
+            border-color: #07ACE6;
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
+            box-shadow: 5px 10px 14px 0px #07ACE64A;
+        }
+    }
+
     &__content {
         
         &__ofert {
@@ -43,7 +58,7 @@
                 }
 
                 &__price {
-                    font-size: 2.5em;
+                    font-size: 2em;
                     font-family: Open Sans;
                     &--red {
                         color: #FB3B64;
@@ -115,11 +130,22 @@
 @media only screen and (min-width: 1000px) {
     .pricing {
         width: 100%;
+
         &__title {
-          font-size: 2.5rem;
-          padding-top: 3rem;
-          padding-bottom: 3rem;
+          font-size: 3rem;
+          padding-bottom: 3.5rem;
         }
+
+        &__currency{
+            padding-bottom: 3.5rem;
+            
+            &__button {
+                margin-right: 1rem;
+                margin-left: 1rem;
+                padding: 1rem 2rem;
+            }
+        }
+
         &__content {
             display: flex;
             width: 80%;
@@ -168,12 +194,12 @@
 
                     &__price {
                         &--red {
-                        padding-bottom: 1.5rem;
+                        padding-bottom: 2rem;
                         }
                     }
 
                     &__offer {
-                        font-size: 0.5rem;
+                        font-size: 1rem;
                         padding-bottom: 1rem;
                     }
                 }
@@ -196,7 +222,7 @@
             }
 
             &__button {
-                right: 25%;
+                right: 32%;
                 bottom: -5%;
             }
         }

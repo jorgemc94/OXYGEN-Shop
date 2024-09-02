@@ -75,108 +75,89 @@
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
    .benefits {
-        padding: 4rem 10rem;
         width: 100%;
-        margin-bottom: 3rem;
-
+        padding: 5rem 15rem;
         &__content {
-            width: 100%;
-
             &--macbook{
+                padding-top: 2rem;
                 display: flex;
                 flex-direction: row-reverse;
-                &__img {
-                    width: 100%;
-
-                    &--macbook{
-                        width: 100%;
-                    }
-
-                    &--red {
-                        width: 100%;
-                    }
-                }
             }
 
             &--iphone{
                 display: flex;
-                &__img {
-                    width: 100%;
 
-                    &--iphone{
-                        width: 100%;
-                    }
-
-                    &--blue {
-                        width: 100%;
-                    }
-                }
             }
 
             &--trumpet{
-                width: 100%;
                 display: flex;
                 background-color: #F7F7F7;
                 &__img {
+                    padding-top: 3rem;
                     width: 40%;
                 }
             }
 
             &__text {
-                padding: 0%;
-                padding-left: 2rem;
+                width: 60%;
                 
                 &--trumpet {
-                    width: 60%;
+                    width: 70%;
                     margin-right: 3rem;
                     background-color: #FFF;
                 }
                 
                 &__title {
+                    font-size: 2rem;
                     padding-top: 3rem;
-                    padding-bottom: 0rem;
-                    font-size: 1.5rem;
+                    padding-left: 4rem;
+                    padding-bottom: 1rem;
 
                     &--iphone{
-                        padding-left: 7rem;
-                        padding-right: 7rem;
-                    }
-
-                    &--trumpet {
-                        padding-right: 10rem;
-                    }
-                }
-
-                &__description {
-                    padding-bottom: 2em;
-                    font-size: 0.7rem;
-
-                    &--macbook{
-                        padding-right: 5rem;
-                    }
-
-                    &--iphone {
-                        padding-left: 7rem;
+                        margin-left: 7rem;
+                        width: 45%;
                         
                     }
 
                     &--trumpet {
-                        padding-right: 10rem;
+                        width: 50%;
+                    }
+                }
+
+                &__description {
+                    font-size: 1.1rem;
+                    padding-bottom: 2.5rem;
+                    padding-left: 4rem;
+
+                    &--macbook{
+                        width: 70%;
+                       
+                    }
+
+                    &--iphone {
+                        margin-left: 7rem;
+                        width: 75%;
+                        
+                    }
+
+                    &--trumpet {
+                        width: 65%;
                     }
                 }
 
                 &__vector {
                     display: block;
-                    padding-bottom: 2rem;
-                    padding-left: 1.5rem;
-                    width: 53%;
+                    width: 50%;
+                    padding-bottom: 3rem;
+                    padding-left: 4rem;
 
-                    &--iphone{
-                        padding-left: 7rem;
-                        width: 75%;
+                    &--iphone {
+                        margin-left: 7rem;
+                        width: 60%;
                     }
+
                 }
             }
 

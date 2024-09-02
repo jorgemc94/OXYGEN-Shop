@@ -1,67 +1,130 @@
 .nav {
     width: 100%;
     box-shadow: 0px 3px 6px  rgba(0, 0, 0, 0.20);
+    position: fixed;
+    background-color: #FFF;
+    z-index: 1;
 
-    &__log {
-        display: inline-block;
-        font-family: Raleway;
-        font-size: 1.5rem;
-        color: #08A6E4;
-        padding: 0.5rem;
-    }
+    &__content {
 
-    &__menu {
-        position: absolute;
-        right: 0%;
-        padding: 1rem;
-
-    }
-
-    &__navbar {
-        display: none;
-        list-style: none;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 0px 3px 6px 0px #0000004A;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-
-        &__log{
-            font-size: 2rem;
-            padding-left: 4rem;
+        &__log {
+            display: inline-block;
+            font-family: Raleway;
+            font-size: 1.5rem;
+            color: #08A6E4;
+            padding: 0.5rem 1rem;
         }
+
         &__menu {
+            position: absolute;
+            right: 0%;
+            padding: 1rem;
+
+            &--active {
+                content: url('./img/borrar.png');
+                width: 3.5rem;
+            }
+        }
+
+        &__borrar {
             display: none;
         }
 
         &__navbar {
-            display: flex;
-            font-size: 1rem;
-            padding-right: 4rem;
+            display: none;
+            list-style: none;
+
+            &--active {
+                display: block;
+            }
 
             &__items {
-                list-style: none;
-                li {
-                    display: inline-block;
-                    padding-left: 1rem;
-                    
+                padding-left: 1rem;
+                padding-bottom: 2.5rem;
+                li{ 
+                    padding-bottom: 1rem;
+                    list-style: none;
                     a {
                         text-decoration: none;
                         color: #A5A5A5;
-
+                        font-weight: bold;
+                        
                         &:hover {
                             color: black;
+                            cursor: pointer;
+                        }
+                    }
+                }    
+            }
+            
+        }
+
+    }
+
+    &__progress {
+        width: 0%;
+        height: 0.3rem;
+        background-color: #08A6E4;
+        position: fixed;
+        top: 0;
+    }    
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .nav {
+        
+        &__content {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__log{
+                font-size: 2rem;
+                padding-left: 6rem;
+            }
+            &__menu {
+                display: none;
+            }
+
+            &__borra {
+                display: none;
+            }
+
+            &__navbar {
+                display: flex;
+                font-size: 1rem;
+                padding-right: 4rem;
+
+                &__items {
+                    list-style: none;
+                    padding-bottom: 0rem;
+                    padding-top: 1rem;
+                    li {
+                        display: inline-block;
+                        padding-left: 2rem;
+                        
+                        a {
+                            text-decoration: none;
+                            color: #A5A5A5;
+                            font-weight: none;
+
+                            &:hover {
+                                color: black;
+                                text-decoration: underline 0.3rem solid #08A6E4;
+                                text-underline-offset: 1.5em;
+                            }
                         }
                     }
                 }
+                
             }
-            
+        }
+
+        &__progress {
+            top: auto;
         }
     }
 }

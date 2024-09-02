@@ -60,6 +60,10 @@
             border-bottom: 1px solid black;
             margin-top: 3rem;
             margin-bottom: 2rem;
+
+            &--red {
+                border-bottom: 1px solid red;
+            }
         }
 
         &__icon {
@@ -69,6 +73,11 @@
             height: 1.6rem;
             appearance: none;
             border: 0.1rem solid black;
+            cursor: pointer;
+
+            &--red {
+                border: 0.1rem solid red;
+            }
 
             &:checked {
                 background-image: url("img/checked.png");
@@ -93,6 +102,8 @@
         transform: translateX(100%);
         box-shadow: 5px 10px 14px 0px #07ACE64A;
         margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
     }
 
 }   
@@ -154,7 +165,7 @@
             }
 
             &__check {
-                font-size: 0.56rem;
+                font-size: 0.85rem;
             }
             
         }
